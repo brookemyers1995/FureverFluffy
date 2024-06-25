@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy
+	Filename: ff_home.css 
+	Author:	Brooke Myers
+	Date:
+
+*/
+
+
+
+
+/* Article Styles*/
+
+
+
+article {
+    padding: 10px;
+    background-color: #ffffff; 
+    
+}
+
+
+/* Portfolio Section Styles */
+
+#portfolio {
+    width: 60%;
+    float: left; 
+    padding: 17px;
+    box-sizing: border-box;
+}
+
+
+
+#navigation {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+#companyOverview h2 {
+    color: rgb(46, 1, 126);
+}
+
+#portfolio img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#imageDescription {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+
+#prev {
+    font-size: 1.4em;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(46, 1, 126);
+    text-decoration: none;
+    margin-right: 20px; 
+}
+
+#next {
+    font-size: 1.4em;
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(46, 1, 126);
+    text-decoration: none;
+    margin-left: 20px; 
+}
+
+#prev:hover, #next:hover {
+    background-color: black;
+}
+
+
+
+
+#companyOverview {
+	background-color: rgb(255, 105, 180);
+    width: 40%;
+    float: right; 
+    padding: 22px;
+    box-sizing: border-box;
+    font-size: 18px; 
+    line-height: 1.6;
+    margin-top: 18px;
+    padding-bottom: 10px; 
+    
+    
+}
+
+
+
+
+
+
+
+

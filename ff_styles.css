@@ -1,0 +1,116 @@
+@charset "utf-8";
+
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy
+	Filename: ff_base.css 
+	Author:	Brooke Myers
+	Date:
+
+*/
+
+
+
+/* All Devices Basic styles */
+
+html, body {
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma, Geneva, sans-serif; 
+    background-color: rgb(255, 176, 226);
+}
+
+
+
+
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	min-width: 320px; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    background-color: white; 
+    flex: 1;
+    
+    
+}
+
+/* Header Section Styles */
+
+header {
+    background: url("../Images/ff_back1.png") center center / cover no-repeat;
+    text-align: center;
+    padding: 20px 0;
+    height: 200px; 
+    margin: 0 auto; 
+    max-width: 1000px;
+    width: 100%; 
+    
+}
+
+
+
+
+/* Navigation Section Styles */
+
+
+
+nav.horizontal ul {
+    display: flex;             
+    background-color: rgb(255, 105, 180);
+    text-align: center;
+    padding: 0;                
+    margin: 0;                 
+    list-style-type: none;     
+    width: 100%;	
+}
+
+nav.horizontal li {
+    font-family: 'Comic Sans MS', cursive; 
+    font-size: 1.4em;
+    line-height: 2em;
+    width: auto;               
+    flex: 1;                  
+}
+
+nav.horizontal li a {
+    color: black;
+    display: block;
+    width: 100%;
+    text-decoration: none;     
+    padding: 10px;            
+    box-sizing: border-box;    
+}
+
+nav.horizontal li a:hover, nav.horizontal li a:active {
+    color: white;
+    background-color: rgb(46, 1, 126);
+}
+
+
+
+/* Footer Section Styles */
+
+footer {
+    flex-shrink: 0;
+    bottom: 0;
+    background-color: rgb(255, 105, 180);
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 1.0em;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0px 0;
+    margin-top: auto;
+    
+}

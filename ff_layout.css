@@ -1,0 +1,231 @@
+@charset "utf-8";
+
+
+
+
+@media only screen and (max-width: 480px) {
+	
+	
+	
+    html, body {
+    	background: none; 
+        width: 100%; /* Adjust body width to fit mobile screens */
+        max-width: 100%; /* Prevent horizontal scrolling */
+        overflow-x: hidden;
+    }
+
+    header {
+    	display: flex; /* Enable flexbox */
+        flex-direction: column;
+        justify-content: center;
+        height: auto; /* Further reduce header height for smaller screens */
+        background-size: cover; /* Ensure background covers the reduced header */
+        background-position: center; /* Center background image */
+        align-items: center;
+    }
+
+    header img {
+        width: 80%; /* Adjust logo width to be responsive */
+        max-height: 150px; /* Limit logo height to maintain design */
+        object-fit: contain; /* Ensure the logo is fully visible without distortion */
+        padding-top: 20px;
+        
+    }
+    
+    header h1 {
+    	display: none;
+    }
+    
+    
+/* Services Media Devices Layout */
+
+    
+    #services {
+        flex-direction: column; 
+        margin-top: 20px; 
+        padding-bottom: 20px; 
+        max-width: 100%; 
+    }
+
+    
+    .service {
+        flex: none; 
+        width: 90%; 
+        margin: 10px auto; 
+        top: 0; 
+        min-width: 0; 
+        max-width: none; 
+    }
+
+
+    .service h2, #Walk-in h2, #Haircut-Bath h2 {
+        font-size: 20px; 
+        position: relative;
+        top: 0; 
+        right: 0; 
+        transform: none; 
+        margin-top: 10px; 
+    }
+
+    /* Adjust subtitles */
+    .subtitle {
+        top: 0; 
+        right: 0; 
+        transform: none; 
+        position: relative; 
+        font-size: 14px; 
+    }
+
+/* About Us Section Laqyout for Mobile Devices */
+
+	article > h2 {
+		display: none;
+	}
+
+	.groomer-photos {
+        flex-direction: column; /* Stack photos vertically */
+        align-items: center; /* Center the photos */
+    }
+    
+    .groomer-photo {
+        width: 100%; /* Full width on smaller screens */
+        margin-bottom: 20px; /* Add some space between photos */
+    }
+
+
+/* Navigation for Mobile Devices */
+
+    nav.horizontal ul {
+        flex-direction: column; /* Stack nav items vertically */
+        padding: 0; /* Remove padding */
+        
+    }
+
+    nav.horizontal li {
+        font-size: 1em; /* Adjust font size for better readability on small screens */
+        padding: 8px; /* Increase padding for easier tapping */
+        line-height: 0.5;
+        border-bottom: 1px solid purple;
+    }
+
+    nav.horizontal li a {
+        padding: 8px; /* Increase link padding for easier tapping */
+    }
+    
+    
+
+/* Home Overview Style for Mobile Devices */
+
+    #portfolio, #companyOverview {
+        width: 100%; /* Full width for both sections */
+        float: none; /* Disable floating, stack vertically */
+        padding: 10px; /* Adjust padding */
+        
+    }
+    
+/* Home Portfolio Style for Mobile Devices */
+
+    #portfolio img {
+        width: 100%; /* Ensure images are responsive */
+        height: auto; /* Maintain aspect ratio */
+        
+    }
+
+    #navigation {
+        flex-direction: column; /* Stack navigation buttons vertically */
+        margin-top: 5px; /* Adjust margin */
+    }
+
+    #prev, #next {
+        margin: 10px auto; /* Center buttons and add space between them */
+        font-size: 1.2em; /* Increase font size for easier tapping */
+    }
+    
+
+/* Footer Styles for Mobile Devices */
+
+    footer {
+        padding: 10px 0; /* Adjust footer padding */
+        font-size: 0.8em; /* Reduce font size in footer for space */
+    }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+	
+	html, body {
+    	background: none; 
+        width: 100%; /* Adjust body width to fit mobile screens */
+        max-width: 100%; /* Prevent horizontal scrolling */
+        overflow-x: hidden;
+        height: auto;
+    }
+    
+
+    header {
+    	display: flex; /* Enable flexbox */
+        flex-direction: column;
+        justify-content: center;
+        height: auto; /* Further reduce header height for smaller screens */
+        background-size: cover; /* Ensure background covers the reduced header */
+        background-position: center; /* Center background image */
+        align-items: center;
+    }
+
+    header img {
+        width: 80%; /* Adjust logo width to be responsive */
+        max-height: 150px; /* Limit logo height to maintain design */
+        object-fit: contain; /* Ensure the logo is fully visible without distortion */
+        padding-top: 20px;
+        
+    }
+   
+
+	header h1 {
+		display: none;
+	}
+	
+	article > h2 {
+		display: none;
+	}
+	
+	
+	 #services {
+    	display: flex;
+    	flex-direction: column; /* Stack children vertically */
+    	align-items: center; /* Center-align the items horizontally */
+    	justify-content: flex-start; /* Align items to the start of the container vertically */
+    	width: 100%; /* Full width of the container */
+    	margin: 0 auto; /* Center the container on the page */
+    	padding: 20px 0 50px 0; /* Padding around the container */
+    	box-sizing: border-box;
+	}
+
+	.service {
+		top: 30px;
+    	width: 100%; /* Each box takes full width of the container */
+    	margin: 50px 0; /* Space between boxes */
+    	padding: 20px;
+    	border: 2px solid black;
+    	background-color: rgb(255, 105, 180); /* Example background color */
+    	text-align: center;
+    	box-sizing: border-box; /* Include padding and border in the width calculation */
+	}
+	
+	
+	
+	
+	
+    /* Additional tablet-specific styles */
+    nav {
+        padding: 0px; /* Adjust navigation padding */
+    }
+
+    .content {
+        padding: 20px; /* Adjust content padding */
+        font-size: 1.2em; /* Increase font size for better readability */
+    }
+}
+
+
+	

@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy
+	Filename: ff_about.css 
+	Author:	Brooke Myers
+	Date:
+
+*/
+
+/* About Section Styles */
+
+article {
+    flex-grow: 1;  /* This will make the article expand to fill available space */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+article > h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    color: #000; 
+    font-size: 40px; 
+    font-family:'Comic Sans MS'; 
+}
+
+.about-section {
+    background-color: #fff; /* White background */
+    padding: 20px 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Comic Sans MS';
+    border: 1px solid #000;
+    margin-top: 20px;
+    margin-left: 33px; /* Adds space on the left */
+    margin-right: 33px;
+    margin-bottom: 20px; /* Space between about section and photos */
+
+
+}
+
+.groomer-photos {
+    display: flex;
+    justify-content: space-around; /* Centers and adds space between photos */
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.groomer-photo {
+    width: 45%; /* Adjusts the width of each photo to fit side by side */
+    height: auto; /* Maintains aspect ratio */
+   
+}
+

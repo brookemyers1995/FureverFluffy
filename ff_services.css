@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy
+	Filename: ff_reset.css 
+	Author:	Brooke Myers
+	Date:
+
+*/
+
+
+
+/* "Services" Section Styles */
+ 
+ 
+#services h1 {
+	position: absolute;
+    font-size: 40px; /* Adjust the size as needed to make it larger than the default h1 */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set the font to Comic Sans MS */
+    color: #000; /* Ensure the text is visible, adjust color as needed */
+    display: block; /* Make sure it is not set to display: none; */
+    margin-top: -970px;
+    width: 100%;
+    text-align: center;
+    /*SERVICES HEADING */
+}
+
+/* Content Boxes Section Styles */
+
+#services {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; /* Stacks items vertically */
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 150px; 
+    margin-left: 0px;
+    padding-bottom: 10px;
+    max-width: 1000px;
+    /*BOXES DESIGN*/
+}
+
+/* BOTH BOXES, HAIRCUT/BATH/WALKIN , AND SUBTITLES Section Styling */
+
+.service {
+	flex: 1;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(255, 105, 180);
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    top: -50px;
+    min-width: 300px;
+    max-width: 600px;
+    /* BOTH BOXES, HAIRCUT/BATH/WALKIN , AND SUBTITLES */
+}
+
+.service h2 { 
+    font-size: 24px;
+    color: #000000;
+    position: absolute;
+    top: -80px;
+    right: 30%;
+    margin: 0;
+    white-space: nowrap;
+    /*Haircut/bath/walkin */
+}
+
+
+article {
+    padding: 10px;
+    background-color: #ffffff; 
+    
+}
+
+    /*CENTERS HAIRCUT/WALKIN */
+    
+#Walk-in h2 {
+    right: 50%; /* Center the header */
+    transform: translateX(55%); /* Adjust the header to be perfectly centered */
+    font-size: 24px; /* Adjust the size as needed to make it larger than the default h1 */
+    font-family: 'Comic Sans MS', cursive; /* Set the font to Comic Sans MS */
+    color: #000;
+
+}
+    
+    
+#Haircut-Bath h2 {
+    right: 50%; /* Center the header */
+    transform: translateX(55%); /* Adjust the header to be perfectly centered */
+    font-size: 24px; /* Adjust the size as needed to make it larger than the default h1 */
+    font-family: 'Comic Sans MS', cursive; /* Set the font to Comic Sans MS */
+    color: #000;
+
+}
+
+
+
+    /*DESIGN FOR SUBTITLES*/
+
+.subtitle {
+    top: -55px; /* Adjust this value to position the subtitle below the header */
+    right: 50%; /* Center the subtitle */
+    transform: translateX(55%); /* Adjust the subtitle to be perfectly centered */
+    position: absolute;
+    font-size: 16px; /* Adjust the size as needed to make it larger than the default h1 */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set the font to Comic Sans MS */
+    color: #000; /* Ensure the text is visible, adjust color as needed */
+    white-space: nowrap;
+    /*DESIGN FOR SUBTITLES*/
+}
+
+
+
+
+
+
