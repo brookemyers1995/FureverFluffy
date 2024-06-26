@@ -228,7 +228,38 @@
         font-size: 1.2em;
     }
     
-    
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+        
+    }
+
+    .contact-info, .contact-map, .contact-form {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        box-sizing: border-box;
+        border-radius: 10px;
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        height: auto;
+    }
+
+    .contact-form form {
+        width: 100%;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
 
 /*Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
