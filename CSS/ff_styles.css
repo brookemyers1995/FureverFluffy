@@ -8,7 +8,7 @@
 	
 	
 	Furever Fluffy
-	Filename: ff_base.css 
+	Filename: ff_styles.css 
 	Author:	Brooke Myers
 	Date:
 
@@ -86,7 +86,7 @@ nav.horizontal ul {
 }
 
 nav.horizontal li {
-    font-family: 'Comic Sans MS', cursive; 
+    font-family: 'Comic Sans MS'; 
     font-size: 1.4em;
     line-height: 2em;
     width: auto;               
