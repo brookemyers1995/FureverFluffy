@@ -11,7 +11,7 @@
 
 #contact-us h2 {
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     color: rgb(46, 1, 126);
 }
 
@@ -22,15 +22,15 @@
 }
 
 .contact-info {
-    width: 40%; /* Adjust width to make it more of a vertical rectangle */
-    padding: 20px; /* Increase padding for better spacing */
+    width: 40%; 
+    padding: 20px; 
     border: 1px solid black;
     background-color: rgba(255, 105, 180, 0.5);
-    margin-left: 20px; /* Add gap between the map and the contact info */
+    margin-left: 20px; 
 }
 
 .contact-map {
-    width: 45%; /* Adjust width to make it more of a vertical rectangle */
+    width: 45%; 
     padding: 10px;
     border: 1px solid #000;
     background-color: rgba(128, 0, 128, 0.5);
@@ -39,7 +39,7 @@
 
 .contact-info h3, .contact-map h3 {
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     color: rgb(46, 1, 126);
 }
 
@@ -51,7 +51,7 @@
 
 .contact-form h3 {
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     color: rgb(46, 1, 126);
 }
 
@@ -62,7 +62,7 @@
 
 .contact-form label {
     margin: 10px 0 5px;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Comic Sans MS';
 }
 
 .contact-form input[type="text"],
@@ -71,7 +71,7 @@
     padding: 10px;
     border: 1px solid #000;
     border-radius: 5px;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Comic Sans MS';
 }
 
 .contact-form input[type="submit"] {
@@ -81,7 +81,7 @@
     border-radius: 5px;
     background-color: rgb(255, 105, 180);
     color: #fff;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     cursor: pointer;
 }
 
