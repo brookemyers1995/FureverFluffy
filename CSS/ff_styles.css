@@ -34,19 +34,17 @@ html, body {
 
 
 
-body {
+	body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
 	min-width: 320px; 
-    max-width: 1000px; 
-    margin: 0 auto; 
-    background-color: white; 
-    flex: 1;
-    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
-    
-    
-}
+    	max-width: 1000px; 
+    	margin: 0 auto; 
+    	background-color: white; 
+    	flex: 1;
+    	box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);    
+	}
 
 /* Header Section Styles */
 
@@ -69,9 +67,9 @@ header {
 
 nav.horizontal {
     width: 100%;
-    box-shadow: 0 0px 32px rgba(128, 0, 128, 0.5); /* Added box shadow */
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove any padding */
+    box-shadow: 0 0px 32px rgba(128, 0, 128, 0.5); 
+    margin: 0; 
+    padding: 0; 
 }
 
 nav.horizontal ul {
