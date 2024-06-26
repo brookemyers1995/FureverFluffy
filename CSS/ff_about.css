@@ -15,6 +15,11 @@
 */
 
 /* About Section Styles */
+
+header {
+    box-shadow: none; 
+}
+
 header h1 {
     display: none;
 }
