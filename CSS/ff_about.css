@@ -15,6 +15,9 @@
 */
 
 /* About Section Styles */
+header h1 {
+    display: none;
+}
 
 article {
     flex-grow: 1;  /* This will make the article expand to fill available space */
