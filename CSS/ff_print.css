@@ -68,8 +68,8 @@
 /* About Us Section */   
 
 	.about-section {
-		margin-top: 100px;
-		font-size: 14px;
+	margin-top: 100px;
+	font-size: 14px;
         page-break-after: always;
     }
 
@@ -98,7 +98,7 @@
     }
 	
 	#prev, #next {
-		display: none;
+	display: none;
 	}
 
     
@@ -133,7 +133,7 @@
 /* Testimonials Section */
 
 	.testimonials h2 {
-		display: none;
+	display: none;
 	}
 	
 	.testimonials {
@@ -146,7 +146,7 @@
     .testimonials h2 {
         text-align: center;
         font-size: 2em;
-        font-family: 'Comic Sans MS', cursive;
+        font-family: 'Comic Sans MS';
         margin-bottom: 20px;
     }
 
@@ -173,7 +173,7 @@
     .testimonial p {
         margin-top: 80px;
         font-size: 1.2em;
-        font-family: 'Comic Sans MS', cursive;
+        font-family: 'Comic Sans MS';
         color: black;
         flex: 1;
     }
