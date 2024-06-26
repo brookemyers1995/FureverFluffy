@@ -8,7 +8,7 @@
 	
 	
 	Furever Fluffy
-	Filename: ff_reset.css 
+	Filename: ff_services.css 
 	Author:	Brooke Myers
 	Date:
 
@@ -20,11 +20,11 @@
  
  
 #services h1 {
-	position: absolute;
-    font-size: 40px; /* Adjust the size as needed to make it larger than the default h1 */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set the font to Comic Sans MS */
-    color: rgb(46, 1, 126); /* Ensure the text is visible, adjust color as needed */
-    display: block; /* Make sure it is not set to display: none; */
+position: absolute;
+    font-size: 40px; 
+    font-family: 'Comic Sans MS'; 
+    color: rgb(46, 1, 126); 
+    display: block; 
     margin-top: -970px;
     width: 100%;
     text-align: center;
@@ -36,7 +36,7 @@
 #services {
     display: flex;
     justify-content: center;
-    flex-direction: row; /* Stacks items vertically */
+    flex-direction: row; 
     align-items: center;
     text-align: center;
     padding: 0px;
@@ -91,20 +91,20 @@ article {
     /*CENTERS HAIRCUT/WALKIN */
     
 #Walk-in h2 {
-    right: 50%; /* Center the header */
-    transform: translateX(55%); /* Adjust the header to be perfectly centered */
-    font-size: 24px; /* Adjust the size as needed to make it larger than the default h1 */
-    font-family: 'Comic Sans MS', cursive; /* Set the font to Comic Sans MS */
+    right: 50%; 
+    transform: translateX(55%); 
+    font-size: 24px;
+    font-family: 'Comic Sans MS'; 
     color: rgb(46, 1, 126);
 
 }
     
     
 #Haircut-Bath h2 {
-    right: 50%; /* Center the header */
-    transform: translateX(55%); /* Adjust the header to be perfectly centered */
-    font-size: 24px; /* Adjust the size as needed to make it larger than the default h1 */
-    font-family: 'Comic Sans MS', cursive; /* Set the font to Comic Sans MS */
+    right: 50%; 
+    transform: translateX(55%); 
+    font-size: 24px; 
+    font-family: 'Comic Sans MS'; 
     color: rgb(46, 1, 126);
 
 }
@@ -114,13 +114,13 @@ article {
     /*DESIGN FOR SUBTITLES*/
 
 .subtitle {
-    top: -55px; /* Adjust this value to position the subtitle below the header */
-    right: 50%; /* Center the subtitle */
-    transform: translateX(55%); /* Adjust the subtitle to be perfectly centered */
+    top: -55px; 
+    right: 50%; 
+    transform: translateX(55%); 
     position: absolute;
-    font-size: 16px; /* Adjust the size as needed to make it larger than the default h1 */
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Set the font to Comic Sans MS */
-    color: #000; /* Ensure the text is visible, adjust color as needed */
+    font-size: 16px;
+    font-family: 'Comic Sans MS'; 
+    color: black; 
     white-space: nowrap;
     /*DESIGN FOR SUBTITLES*/
 }
