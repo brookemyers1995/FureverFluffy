@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+
+#contact-us {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#contact-us h2 {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(46, 1, 126);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    width: 40%; /* Adjust width to make it more of a vertical rectangle */
+    padding: 20px; /* Increase padding for better spacing */
+    border: 1px solid black;
+    background-color: rgba(255, 105, 180, 0.5);
+    margin-left: 20px; /* Add gap between the map and the contact info */
+}
+
+.contact-map {
+    width: 45%; /* Adjust width to make it more of a vertical rectangle */
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: rgba(128, 0, 128, 0.5);
+    margin-left: 20px;
+}
+
+.contact-info h3, .contact-map h3 {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(46, 1, 126);
+}
+
+.contact-form {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.contact-form h3 {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(46, 1, 126);
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.contact-form input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 105, 180);
+    color: #fff;
+    font-family: 'Comic Sans MS', cursive;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: rgb(46, 1, 126);
+}

@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+#shop {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
+    margin: 0 auto;
+    max-width: 1000px;
+    
+}
+
+#shop h2 {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 32px;
+    color: rgb(46, 1, 126);
+}
+
+.shop-info {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive; 
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.shop-items .item {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: rgb(46, 1, 126);
+}
+
+.shop-items .item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.shop-items .item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.shop-items .item p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.shop-items .item a {
+    color: rgb(46, 1, 126);
+    text-decoration: none;
+}
+
+.shop-items .item a:hover {
+    text-decoration: underline;
+}

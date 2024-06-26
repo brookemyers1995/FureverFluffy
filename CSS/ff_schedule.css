@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+
+#schedule {
+    padding: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+#schedule h2 {
+	margin-top: 0px;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    font-size: 34px;
+    color: rgb(46, 1, 126);
+}
+
+.info-box {
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.schedule-table {
+    overflow-x: auto;
+}
+
+.schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.schedule-table th, .schedule-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.schedule-table th {
+    background-color: rgb(255, 105, 180);
+    color: black;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.schedule-table td {
+    background-color: #fff;
+    color: black;
+    font-size: 16px;
+    font-family: 'Comic Sans MS', cursive;
+    
+}
