@@ -14,7 +14,7 @@
     grid-column: span 2;
     text-align: center;
     font-size: 2em;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     margin-bottom: 20px;
 }
 
@@ -38,7 +38,7 @@
 .testimonial p {
     margin: 0;
     font-size: 1.2em;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     color: black;
     flex: 1;
 }
@@ -53,7 +53,7 @@
 }
 
 .horizontal-links a {
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     font-size: 1.4em;
     color: black;
     text-decoration: none;
