@@ -191,6 +191,45 @@
     }
 }
 
+/* Shop Style for Mobile Devices */
+	
+	#shop h2 {
+		display: none;
+	}
+
+	.shop-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop-items .item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .shop-items .item h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .shop-items .item img {
+        width: 100%;
+        border-radius: 10px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .shop-items .item p {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .shop-items .item a {
+        font-size: 1.2em;
+    }
+    
+    
+
 /*Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
 	
