@@ -2,7 +2,7 @@
 
 #shop {
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
     margin: 0 auto;
     max-width: 1000px;
@@ -11,7 +11,7 @@
 
 #shop h2 {
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     font-size: 32px;
     color: rgb(46, 1, 126);
 }
@@ -19,7 +19,7 @@
 .shop-info {
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Comic Sans MS', cursive; 
+    font-family: 'Comic Sans MS'; 
 }
 
 .shop-items {
@@ -32,7 +32,7 @@
     width: 30%;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     color: rgb(46, 1, 126);
 }
 
@@ -44,7 +44,7 @@
 .shop-items .item img {
     width: 100%;
     height: auto;
-    border: 1px solid #000;
+    border: 1px solid black;
     object-fit: cover;
     margin-bottom: 10px;
 }
