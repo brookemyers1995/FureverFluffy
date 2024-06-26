@@ -3,7 +3,7 @@
 
 #schedule {
     padding: 20px;
-    background-color: #fff;
+    background-color: white;
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -11,7 +11,7 @@
 #schedule h2 {
 	margin-top: 0px;
     text-align: center;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     font-size: 34px;
     color: rgb(46, 1, 126);
 }
@@ -20,8 +20,8 @@
     padding: 10px;
     border: 1px solid #000;
     margin-bottom: 20px;
-    font-family: Tahoma, Geneva, sans-serif;
-    background-color: #f9f9f9;
+    font-family: 'Comic Sans MS';
+    background-color: white;
 }
 
 .schedule-table {
@@ -35,7 +35,7 @@
 }
 
 .schedule-table th, .schedule-table td {
-    border: 1px solid #000;
+    border: 1px solid black;
     padding: 10px;
     text-align: center;
 }
@@ -44,13 +44,13 @@
     background-color: rgb(255, 105, 180);
     color: black;
     font-size: 16px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
 }
 
 .schedule-table td {
-    background-color: #fff;
+    background-color: white;
     color: black;
     font-size: 16px;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Comic Sans MS';
     
 }
