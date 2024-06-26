@@ -9,25 +9,25 @@
 	
     html, body {
     	background: none; 
-        width: 100%; /* Adjust body width to fit mobile screens */
-        max-width: 100%; /* Prevent horizontal scrolling */
+        width: 100%; 
+        max-width: 100%; 
         overflow-x: hidden;
     }
 
     header {
-    	display: flex; /* Enable flexbox */
+    	display: flex; 
         flex-direction: column;
         justify-content: center;
-        height: auto; /* Further reduce header height for smaller screens */
-        background-size: cover; /* Ensure background covers the reduced header */
-        background-position: center; /* Center background image */
+        height: auto; 
+        background-size: cover; 
+        background-position: center; 
         align-items: center;
     }
 
     header img {
-        width: 80%; /* Adjust logo width to be responsive */
-        max-height: 150px; /* Limit logo height to maintain design */
-        object-fit: contain; /* Ensure the logo is fully visible without distortion */
+        width: 80%; 
+        max-height: 150px; 
+        object-fit: contain; 
         padding-top: 20px;
         
     }
@@ -67,7 +67,7 @@
         margin-top: 10px; 
     }
 
-    /* Adjust subtitles */
+    
     .subtitle {
         top: 0; 
         right: 0; 
@@ -83,13 +83,13 @@
 	}
 
 	.groomer-photos {
-        flex-direction: column; /* Stack photos vertically */
-        align-items: center; /* Center the photos */
+        flex-direction: column; 
+        align-items: center; 
     }
     
     .groomer-photo {
-        width: 100%; /* Full width on smaller screens */
-        margin-bottom: 20px; /* Add some space between photos */
+        width: 100%; 
+        margin-bottom: 20px; 
     }
 
 /* Testimonials Section Layout for Mobile Devices */
@@ -132,20 +132,20 @@
 	}
 
     nav.horizontal ul {
-        flex-direction: column; /* Stack nav items vertically */
-        padding: 0; /* Remove padding */
+        flex-direction: column; 
+        padding: 0; 
         
     }
 
     nav.horizontal li {
-        font-size: 1em; /* Adjust font size for better readability on small screens */
-        padding: 8px; /* Increase padding for easier tapping */
+        font-size: 1em; 
+        padding: 8px; 
         line-height: 0.5;
         border-bottom: 1px solid purple;
     }
 
     nav.horizontal li a {
-        padding: 8px; /* Increase link padding for easier tapping */
+        padding: 8px; 
     }
     
     
@@ -153,36 +153,36 @@
 /* Home Overview Style for Mobile Devices */
 
     #portfolio, #companyOverview {
-        width: 100%; /* Full width for both sections */
-        float: none; /* Disable floating, stack vertically */
-        padding: 10px; /* Adjust padding */
+        width: 100%; 
+        float: none; 
+        padding: 10px; 
         
     }
     
 /* Home Portfolio Style for Mobile Devices */
 
     #portfolio img {
-        width: 100%; /* Ensure images are responsive */
-        height: auto; /* Maintain aspect ratio */
+        width: 100%; 
+        height: auto; 
         
     }
 
     #navigation {
-        flex-direction: column; /* Stack navigation buttons vertically */
-        margin-top: 5px; /* Adjust margin */
+        flex-direction: column; 
+        margin-top: 5px;
     }
 
     #prev, #next {
-        margin: 10px auto; /* Center buttons and add space between them */
-        font-size: 1.2em; /* Increase font size for easier tapping */
+        margin: 10px auto; 
+        font-size: 1.2em; 
     }
     
 
 /* Footer Styles for Mobile Devices */
 
     footer {
-        padding: 10px 0; /* Adjust footer padding */
-        font-size: 0.8em; /* Reduce font size in footer for space */
+        padding: 10px 0; 
+        font-size: 0.8em; 
     }
 }
 
@@ -191,27 +191,27 @@
 	
 	html, body {
     	background: none; 
-        width: 100%; /* Adjust body width to fit mobile screens */
-        max-width: 100%; /* Prevent horizontal scrolling */
+        width: 100%; 
+        max-width: 100%; 
         overflow-x: hidden;
         height: auto;
     }
     
 
     header {
-    	display: flex; /* Enable flexbox */
+    	display: flex; 
         flex-direction: column;
         justify-content: center;
-        height: auto; /* Further reduce header height for smaller screens */
-        background-size: cover; /* Ensure background covers the reduced header */
-        background-position: center; /* Center background image */
+        height: auto; 
+        background-size: cover; 
+        background-position: center; 
         align-items: center;
     }
 
     header img {
-        width: 80%; /* Adjust logo width to be responsive */
-        max-height: 150px; /* Limit logo height to maintain design */
-        object-fit: contain; /* Ensure the logo is fully visible without distortion */
+        width: 80%; 
+        max-height: 150px; 
+        object-fit: contain; 
         padding-top: 20px;
         
     }
@@ -228,38 +228,38 @@
 	
 	 #services {
     	display: flex;
-    	flex-direction: column; /* Stack children vertically */
-    	align-items: center; /* Center-align the items horizontally */
-    	justify-content: flex-start; /* Align items to the start of the container vertically */
-    	width: 100%; /* Full width of the container */
-    	margin: 0 auto; /* Center the container on the page */
-    	padding: 20px 0 50px 0; /* Padding around the container */
+    	flex-direction: column; 
+    	align-items: center; 
+    	justify-content: flex-start; 
+    	width: 100%; 
+    	margin: 0 auto; 
+    	padding: 20px 0 50px 0; 
     	box-sizing: border-box;
 	}
 
 	.service {
-		top: 30px;
-    	width: 100%; /* Each box takes full width of the container */
-    	margin: 50px 0; /* Space between boxes */
+	top: 30px;
+    	width: 100%; 
+    	margin: 50px 0; 
     	padding: 20px;
     	border: 2px solid black;
-    	background-color: rgb(255, 105, 180); /* Example background color */
+    	background-color: rgb(255, 105, 180); 
     	text-align: center;
-    	box-sizing: border-box; /* Include padding and border in the width calculation */
+    	box-sizing: border-box; 
 	}
 	
 	
 	
 	
 	
-    /* Additional tablet-specific styles */
+    
     nav {
-        padding: 0px; /* Adjust navigation padding */
+        padding: 0px; 
     }
 
     .content {
-        padding: 20px; /* Adjust content padding */
-        font-size: 1.2em; /* Increase font size for better readability */
+        padding: 20px; 
+        font-size: 1.2em; 
     }
     
     .testimonials h2 {
