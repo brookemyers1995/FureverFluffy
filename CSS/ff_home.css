@@ -104,6 +104,27 @@ article {
 }
 
 
+#video-section {
+    clear: both; 
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    margin-top: -60px;
+	}
+
+	#video-section h2 {
+    font-family: 'Comic Sans MS';
+    font-size: 32px;
+    color: rgb(46, 1, 126);
+    margin-bottom: 20px;
+	}
+
+	#video-section video {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+	}
 
 
 
