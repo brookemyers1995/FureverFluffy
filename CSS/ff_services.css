@@ -7,7 +7,7 @@
 	Professor Anindya Paul
 	
 	
-	Furever Fluffy
+	Furever Fluffy Services
 	Filename: ff_services.css 
 	Author:	Brooke Myers
 	Date:
@@ -17,124 +17,78 @@
 
 
 /* "Services" Section Styles */
+ 
 
+	#services h1 {
+	position: absolute; /* Positions the h1 heading absolutely, allowing accurate control by using top, bottom, left and right controls */
+    font-size: 34px; /* Sets the font size of the h1 heading to 40 pixels */
+    font-family: 'Comic Sans MS';  /* Sets the font style of the h1 heading to comic sans ms */
+    color: rgb(46, 1, 126); /* Sets the font color of the h1 heading to the rgb values assigned */
+    margin-top: -970px; /* This sets the h1 heading perfectly centered at the top of the page 
+    (for some reason this is the only way I could figure out how to accomplish this 
+    other than applying a large amount of negative pixels to the margin-top )*/
+   	}
 	
-header {
-    box-shadow: none; 
-}
- 
- header h1 {
- display: none;
- }
- 
-#services h1 {
-position: absolute;
-    font-size: 40px; 
-    font-family: 'Comic Sans MS'; 
-    color: rgb(46, 1, 126); 
-    display: block; 
-    margin-top: -970px;
-    width: 100%;
-    text-align: center;
-    /*SERVICES HEADING */
-}
-
-/* Content Boxes Section Styles */
-
-#services {
-    display: flex;
-    justify-content: center;
-    flex-direction: row; 
-    align-items: center;
-    text-align: center;
-    padding: 0px;
+	#services {
+    display: flex; /* Tells the ID "services" to use a flexbox layout */
+    justify-content: center; /* This centers everything inside of the #services flexbox horizontally */
+    align-items: center;/* This centers everything inside of the #services flexbox vertically */
     border-radius: 15px;
     background-color: white;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 150px; 
-    margin-left: 0px;
-    padding-bottom: 10px;
-    max-width: 1000px;
-    /*BOXES DESIGN*/
-}
-
-/* BOTH BOXES, HAIRCUT/BATH/WALKIN , AND SUBTITLES Section Styling */
-
-.service {
-	flex: 1;
-    margin: 10px;
-    margin-top: 50px;
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 25px;
-    background-color: rgb(255, 105, 180);
-    text-align: center;
-    box-sizing: border-box;
-    position: relative;
-    top: -50px;
-    min-width: 300px;
-    max-width: 600px;
-    /* BOTH BOXES, HAIRCUT/BATH/WALKIN , AND SUBTITLES */
-}
-
-.service h2 { 
-    font-size: 24px;
-    color: black;
-    position: absolute;
-    top: -80px;
-    right: 30%;
-    margin: 0;
-    white-space: nowrap;
-    /*Haircut/bath/walkin */
-}
+    margin-top: 150px; /* This adds space above the #services container, 
+    allowing it to fit perfectly within the page
+	(without this, it overlaps the header and horizontal navigation)*/
+    padding-bottom: 10px;/* Adds some space below the #service section */
+   	}
 
 
-article {
-    padding: 10px;
-    background-color: #ffffff; 
+	.service {
+	flex: 1; /* This makes the flex items in this section grow and shrink where necessary */
+    margin: 10px; /* This adds space between both content boxes */
+    margin-top: 50px; /* This adds space above the service section (boxes, heading, subheading and subtitles)*/
+    padding: 20px;  /* Adds 20 pixels of space inside the .service container */
+    border: 2px solid black; /* Adds a 2 pixel solid black border around each box */
+    border-radius: 25px; /* Adds rounded corners to both boxes */
+    background-color: rgba(128, 0, 128, 0.5); /* Sets the background color of both boxes to the set rgb values */
+    text-align: center; /* Centers the text inside of the service container */
+    box-sizing: border-box; /* This will include the padding and border in the .service container's width and height */
+    position: relative; /* Positions the .services section relatively, allowing accurate control by using top, bottom, left and right controls */
+    top: -50px; /* This moves the .service container up */
+    }
+
+	.service h2 { 
+    font-size: 24px; /* Sets the font size of the h2 sub heading to 24 pixels */
+    color: black; /* Sets the font color of the h2 sub heading to black */
+    position: absolute; /* This will position the the sub heading absolutely within the .service container  */
+    top: -100px; /* This moves the .service h2 sub heading  up */
+    white-space: nowrap; /* This prevents the sub heading from wrapping if the text is too long */
+	}
     
-}
-
-    /*CENTERS HAIRCUT/WALKIN */
-    
-#Walk-in h2 {
-    right: 50%; 
-    transform: translateX(55%); 
-    font-size: 24px;
-    font-family: 'Comic Sans MS'; 
-    color: rgb(46, 1, 126);
-
-}
+	#WalkIn h2 {
+    transform: translateX(55%); /* This moves the #walkIn h2 heading horizontally to the right */
+    font-size: 24px; /* Sets the font size of the h2 sub heading to 24 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the h2 sub heading to comic sans ms */
+    color: rgb(46, 1, 126); /* Sets the font color of the h2 sub heading to the set rgb values */
+	}
     
     
-#Haircut-Bath h2 {
-    right: 50%; 
-    transform: translateX(55%); 
-    font-size: 24px; 
-    font-family: 'Comic Sans MS'; 
-    color: rgb(46, 1, 126);
-
-}
-
-
-
-    /*DESIGN FOR SUBTITLES*/
-
-.subtitle {
-    top: -55px; 
-    right: 50%; 
-    transform: translateX(55%); 
-    position: absolute;
-    font-size: 16px;
-    font-family: 'Comic Sans MS'; 
-    color: black; 
-    white-space: nowrap;
-    /*DESIGN FOR SUBTITLES*/
-}
+	#HaircutBath h2 {
+    right: 50%; /* This moves the the #HaircutBath h2 sub heading 50% from the right, 
+    positioning it centered above the subtitle and content boxes */
+    transform: translateX(55%); /* This moves the #HaircutBath h2 heading horizontally to the right */
+    font-size: 24px; /* Sets the h2 subheading "haircutBath" to 24 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the #HaircutBath h2 sub heading to comic sans ms */
+    color: rgb(46, 1, 126); /* Sets the font color of the #HaircutBath h2 sub heading to the set rgb values */
+	}
 
 
-
-
-
-
+	.subtitle {
+    top: -55px; /* Moves the .subtitle (appointment needed/ no appointment needed) heading  up */
+    right: 50%; /* Moves the the subtitles 50% from the right, */
+    transform: translateX(55%); /* Moves the subtitles horizontally to the right */
+    position: absolute; /* This will positions the subtitle absolutely within the .subtitle container  */
+    font-size: 16px; /* Sets the font size of the subtitles to 16 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the subtitles to comic sans ms */
+    color: black; /* Sets the font color of the subtitles to black */ 
+    white-space: nowrap; /* Prevents the subtitles text from wrapping if they're too long */
+	}
