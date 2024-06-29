@@ -241,11 +241,13 @@
         box-sizing: border-box;
         border-radius: 10px;
     }
+    
+    
 
     .contactMap iframe {
         width: 105%;
         height: auto;
-        min-height: 300px; 
+        min-height: 400px; 
         border: 0;
     }
 
@@ -331,7 +333,81 @@
     box-sizing: border-box; 
 	}
 	
+	/*Contact Us Section */
 	
+	.contactContainer {
+        display: flex; /* Use flexbox layout */
+        flex-direction: row; /* Arrange items in a row */
+        justify-content: space-between; /* Space items evenly */
+        align-items: flex-start; /* Align items to the start */
+        width: 100%; /* Full width */
+        padding: 0 20px; /* Padding on left and right */
+        box-sizing: border-box; /* Include padding in width */
+    }
+
+    .contactInfo, .contactMap {
+        width: 48%; /* Each section takes up 48% of the width */
+        margin: 10px 0; /* Margin on top and bottom */
+        padding: 20px; /* Padding inside the sections */
+        box-sizing: border-box; /* Include padding in width */
+        border-radius: 10px; /* Rounded corners */
+    }
+    
+    
+
+    .contactMap iframe {
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        min-height: 455px; /* Minimum height */
+        border: 0; /* No border */
+    }
+
+    .contactForm {
+        display: flex; /* Use flexbox layout */
+        flex-direction: column; /* Arrange items in a column */
+        align-items: center; /* Center items horizontally */
+        width: 100%; /* Full width */
+        margin: 10px 0; /* Margin on top and bottom */
+        padding: 20px; /* Padding inside the sections */
+        box-sizing: border-box; /* Include padding in width */
+        border-radius: 10px; /* Rounded corners */
+    }
+
+    .contactForm h3 {
+        text-align: center; /* Center the heading */
+        width: 100%; /* Full width */
+        margin-bottom: 20px; /* Margin below the heading */
+    }
+
+    .contactForm form {
+        display: flex; /* Use flexbox layout */
+        flex-direction: column; /* Arrange items in a column */
+        width: 100%; /* Full width */
+    }
+
+    .contactForm label {
+        width: 100%; /* Full width */
+        margin: 10px 0 5px; /* Margin on top, bottom, and sides */
+        text-align: left; /* Align text to the left */
+    }
+
+    .contactForm input[type="text"],
+    .contactForm input[type="email"],
+    .contactForm input[type="phone"],
+    .contactForm textarea {
+        width: 100%; /* Full width */
+        margin: 5px 0 20px; /* Margin on top, bottom, and sides */
+        box-sizing: border-box; /* Include padding in width */
+    }
+
+    .contactForm input[type="reset"],
+    .contactForm input[type="submit"] {
+        width: 100%; /* Each button takes up 48% of the width */
+        margin: 10px 1%; /* Margin on top, bottom, and sides */
+        box-sizing: border-box; /* Include padding in width */
+    }
+}
+
 	
     /* Additional tablet-specific styles */
     nav {
@@ -347,5 +423,5 @@
     display: none;
     }
     
-    
-}
+   
+
