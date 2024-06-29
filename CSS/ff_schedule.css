@@ -1,56 +1,67 @@
 @charset "utf-8";
 
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy Schedule
+	Filename: ff_schedule.css 
+	Author:	Brooke Myers
+	Date:
 
-#schedule {
-    padding: 20px;
-    background-color: white;
-    margin: 0 auto;
-    max-width: 1000px;
-}
+*/
 
-#schedule h2 {
-	margin-top: 0px;
-    text-align: center;
-    font-family: 'Comic Sans MS';
-    font-size: 34px;
-    color: rgb(46, 1, 126);
-}
+	
 
-.info-box {
-    padding: 10px;
-    border: 1px solid #000;
-    margin-bottom: 20px;
-    font-family: 'Comic Sans MS';
-    background-color: white;
-}
+	#schedule { 
+    padding: 20px; /* Adds 20 pixels of space inside the #schedule section */
+    background-color: white; /* Makes the #schedule section background color white */
+    margin: 0 auto; /* Centers the element horizontally by setting top/bottom to 0 and left/right to auto*/
+    max-width: 1000px; /* Sets the maximum width of the schedule section*/
+	}
 
-.schedule-table {
-    overflow-x: auto;
-}
+	#schedule h2 {
+	margin-top: 0px; /* Removes the space above the "schedule" h2 heading */
+    text-align: center; /* Sets the "schedule" h2 heading to the center of the page */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the "schedule" h2 heading to comic sans ms */
+    font-size: 34px; /* Sets the font size of the "schedule" h2 heading to 34 pixels */
+    color: rgb(46, 1, 126); /* Sets the font color of the h2 heading to the set rgb values (purple)*/
+	}
 
-.schedule-table table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: 'Comic Sans MS';
-}
+	.infoBox {/* This is the information box that appears above the schedule table*/
+    padding: 10px; /* Adds 10 pixels of space inside the "infoBox" container */
+    border: 1px solid black; /* Adds a 1 pixel sized solid black border around the "infoBox" container */
+    margin-bottom: 20px; /* Adds 20 pixels of space below the "infoBox" */
+    font-family: 'Comic Sans MS'; /* Sets the font style of text inside the "infoBox" to comic sans ms */
+    background-color: white; /* Set the background color of the "infoBox" container to white */
+	}
 
-.schedule-table th, .schedule-table td {
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-}
+	.scheduleTable table {
+    width: 100%; /* Sets the width of the table to 100% */
+    border-collapse: collapse; /* This collapses the borders of the cells inside of the table into one border 
+    (without it, there would be gaps in between each cell)*/
+    font-family: 'Comic Sans MS'; /* Sets the font style of text inside the table to comic sans ms */
+	}
 
-.schedule-table th {
-    background-color: rgb(255, 105, 180);
-    color: black;
-    font-size: 16px;
-    font-family: 'Comic Sans MS';
-}
+	.scheduleTable th, .scheduleTable td {
+    border: 1px solid black;  /* Adds a 1 pixel sized solid black border around the table headers and cells */
+    padding: 10px; /* Adds 10 pixels of space inside the table head and cells */
+    text-align: center; /* Center the text of the table header and cells */
+	}
 
-.schedule-table td {
-    background-color: white;
-    color: black;
-    font-size: 16px;
-    font-family: 'Comic Sans MS';
-    
-}
+	.scheduleTable th {
+    background-color: rgb(255, 105, 180); /* Sets the table header background to the rgb values assigned (hot pink) */
+    color: black; /* Sets the font color of the table header to black */
+    font-size: 16px; /* Sets the font size of the table header to 16 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the table header to comic sans ms */
+	}
+
+	.scheduleTable td {
+    background-color: white; /* Sets the table cells to the background color white */
+    color: black; /*Sets the font color of the table cells to black */
+    font-size: 16px; /* Sets the font size of the table cells to 16 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the table cells to comic sans ms */
+	}
