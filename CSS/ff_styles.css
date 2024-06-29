@@ -7,7 +7,7 @@
 	Professor Anindya Paul
 	
 	
-	Furever Fluffy
+	Furever Fluffy Styles
 	Filename: ff_styles.css 
 	Author:	Brooke Myers
 	Date:
@@ -18,110 +18,83 @@
 
 /* All Devices Basic styles */
 
-html, body {
-    min-height: 100vh; 
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Comic Sans MS'; 
-    background-color: rgb(255, 176, 226);
-    
-    
-}
-
-
+	html {
+    min-height: 100vh; /* Sets the full viewport height */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the entire document to comic sans ms */
+    background-color: rgb(255, 176, 226); /* Sets the html background color to the set rgb values (light pink)*/
+	}
 
 
 
 	body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	min-width: 320px; 
-    	max-width: 1000px; 
-    	margin: 0 auto; 
-    	background-color: white; 
-    	flex: 1;
-    	box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);    
+	min-height: 100vh;/* Sets the full viewport height */
+	display: flex; /* Sets the body layout as a flexbox */
+	flex-direction: column; /* This sets the children elements as a column */
+    max-width: 1000px; /* This sets the maximum width of the body */
+    margin: 0 auto; /* Set the body horizontally centered (without this, it will be on the left side of the browser */
+    background-color: white; /* Sets the bodys backgroun d color to white */
+    flex: 1; /* Makes the body grow/shrink when necessary */
+    box-shadow: 0 0px 32px rgba(128, 0, 128, 0.5);  /* Adds a shadow to the sides of the body */
 	}
 
 /* Header Section Styles */
 
-header {
-    background: url("../Images/ff_back1.png") center center / cover no-repeat;
-    text-align: center;
-    padding: 20px 0;
-    height: 200px; 
-    margin: 0 auto; 
-    max-width: 1000px;
-    width: 100%; 
-    box-shadow: 0 16px 16px rgba(128, 0, 128, 0.5);
-    
-}
-
-
+	header {
+    background: url("../Images/ff_back1.png") center center / cover no-repeat; /* Gets the source of the background 
+    image for the header then centers it and make sure it covers all of the header */
+    text-align: center;/* Centers the text inside of the header */
+    padding: 20px 0;/* Adds 5px of space on the top and bottom and 10px of space 
+    on the left and right of the header */
+    height: 190px; /* Sets the height of the header */
+    box-shadow: 0 0px 32px rgba(128, 0, 128, 0.5); /* Adds a shadow to the sides of the header */
+	}
 
 
 /* Navigation Section Styles */
 
-nav.horizontal {
-    width: 100%;
-    box-shadow: 0 0px 32px rgba(128, 0, 128, 0.5); 
-    margin: 0; 
-    padding: 0; 
-}
+	nav.horizontal {
+    width: 100%; /* Sets the width of the horizontal navigation bar to 100% */
+    box-shadow: 0 0px 32px rgba(128, 0, 128, 0.5); /* Adds a shadow to the sides of the navigation */
+	}
 
-nav.horizontal ul {
-    display: flex;             
-    background-color: rgb(255, 105, 180);
-    text-align: center;
-    padding: 0;                
-    margin: 0;                 
-    list-style-type: none;     
-    width: 100%;	
-    
-}
+	nav.horizontal ul {
+    display: flex; /* Sets the horizontal navigation layout as a flexbox */             
+    background-color: rgb(255, 105, 180); /* Sets the background color of the horizontal navigation bar to the rgb values */
+    text-align: center; /* Centers the text inside of the horizontal navigation bar */
+    padding: 0; /* Sets the space inside of the horizontal navigation to 0 pixels */             
+    margin: 0; /* Sets the space around the horizontal navigation to 0 pixels, essentially removing any extra space */                 
+    list-style-type: none; /* This removes any list styles like bullet points from the horizontal navigation bar */
+	}
 
-nav.horizontal li {
-    font-family: 'Comic Sans MS'; 
-    font-size: 1.4em;
-    line-height: 2em;
-    width: auto;               
-    flex: 1; 
-  	margin: 0 15px;
-  	white-space: nowrap;         
-}
+	nav.horizontal li {
+    font-family: 'Comic Sans MS'; /* Sets the font of the text inside of the horizontal navigation bar to comic sans ms */
+    font-size: 1.4em; /* Sets the font size of the text in the horizontal navigation bar to 1.4em */
+    line-height: 2em; /* Sets the height of the line for each text to 2em, essentially expanding height of the navigation */
+  	margin: 0 15px; /* This sets the spacing of the top/bottom to 0 but the left/right to 15px, basically adding space between each text */
+  	white-space: nowrap; /* Stops the text from wrapping into a new line, avoiding the navigation from getting bigger */      
+	}
 
-nav.horizontal li a {
-    color: black;
-    display: block;
-    width: 100%;
-    text-decoration: none;     
-    padding: 5px 10px;            
-    box-sizing: border-box;    
-}
+	nav.horizontal li a {
+    color: black; /* Sets the font color to black */
+    display: block; /* Sets the links as block elements */
+    text-decoration: none;  /* Removes decorations such as underline. text will automatically be underlined if not applied */   
+    padding: 5px 10px; /* This sets the spacing of the top/bottom to 5px and the left/right to 10px, basically adding space between each text and as well as space on the top and bottom */        
+	}
 
-nav.horizontal li a:hover, nav.horizontal li a:active {
-    color: white;
-    background-color: rgb(46, 1, 126);
-}
+	nav.horizontal li a:hover, nav.horizontal li a:active {
+    color: white; /* Sets the font color to white when a mouse hovers over it */
+    background-color:  rgb(46, 1, 126);/*Sets the background color of the link to the set rgb values */
+	}
 
 
 
 /* Footer Section Styles */
 
-footer {
-    flex-shrink: 0;
-    bottom: 0;
-    background-color: rgb(255, 105, 180);
-    font-family: 'Comic Sans MS';
-    font-size: 1.0em;
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center;
-    padding: 0px 0;
-    margin-top: auto;
-    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
-    
-}
+	footer {
+    background-color: rgb(255, 105, 180);/*Sets the background color of the footer to the set rgb values */
+    font-family: 'Comic Sans MS';/*Sets the font style of the text in the footer to comic sans ms */
+    font-size: 1.0em; /* Sets the font size of the text in the footer to 1.0em */
+    text-align: center; /* Centers the text inside of the footer */
+    margin-top: auto; /* This adds an automatic margin tot he top of the footer which will push it to the bottom of the page */
+    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5); /* Adds a box shadow on the bottom of the footer and the sides */    
+	}
