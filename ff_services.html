@@ -7,91 +7,90 @@
 	Professor Anindya Paul
 	
 	
-	Furever Fluffy Services
+	Furever Fluffy Homepage
 	Author:	Brooke Myers
 	Date:
 
  -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furever Fluffy Dog Grooming</title>
-    <link rel="stylesheet" href="CSS/ff_styles.css">
-    <link rel="stylesheet" href="CSS/ff_services.css">
-    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/>
-    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/>
+    <meta charset="UTF-8"><!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Makes sure there is proper rendering and touch zooming on mobile devices -->
+    <title>Furever Fluffy Dog Grooming</title><!-- The title of the website -->
+    <link rel="stylesheet" href="CSS/ff_styles.css"><!-- Base styling for all pages -->
+    <link rel="stylesheet" href="CSS/ff_services.css"><!-- Styling Specifically for the Services page -->
+    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/><!-- Layout for Mobile Devices and Tablet/Desktop Devices -->
+    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/><!-- Layout for Printing -->
     
 </head>
 <body>
 
-<header>
-	<a href="index.html">
-       <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;">
-       
-       <h1>Furever Fluffy Dog Grooming</h1>
-	</a>
-   </header>
+	<header><!-- opening of the header section -->
+		<a href="index.html"><!-- link for logo, clicking will redirect you to the index -->
+       <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;"><!-- Logo source -->       
+       </a><!-- closing the link section -->      
+   </header><!-- closing of the header -->
 
-<nav class="horizontal">
-      <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ff_services.html">Services</a></li>
-            <li><a href="ff_about.html">About Us</a></li>
-            <li><a href="ff_testimonials.html">Testimonials</a></li>
-            <li><a href="ff_contact.html">Contact Us</a></li>
-            <li><a href="ff_schedule.html">Schedule</a></li>
-            <li><a href="ff_shop.html">Shop</a></li>
-        </ul>
-   </nav>
+<nav class="horizontal"><!-- Navigation Bar to link to other sections in the webpage -->
+      <ul><!-- beginning of unordered list -->
+            <li><a href="index.html">Home</a></li><!-- link to the index -->
+            <li><a href="ff_services.html">Services</a></li><!-- link to the Services Section -->
+            <li><a href="ff_about.html">About Us</a></li><!-- Link to the About Us Section -->
+            <li><a href="ff_testimonials.html">Testimonials</a></li><!-- Link to the testimonials section -->
+            <li><a href="ff_contact.html">Contact Us</a></li><!-- Link to the contact us section -->
+            <li><a href="ff_schedule.html">Schedule</a></li><!-- Link to the Schedule Section -->
+            <li><a href="ff_shop.html">Shop</a></li><!-- Link to the Shop Section -->
+        </ul><!-- ending of unordered list -->
+   </nav><!-- closing navigation section -->
    
    
-   <section id="services">
-    <h1>Services</h1>
-    	<section class="service" id="Haircut-Bath">
-    		<h2>Full-Groom/Bath</h2>
-    			<p class="subtitle">(Appointment Needed)</p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Basic All-Over Haircut, Bath, Face-Feet & Sanitary Trim:</p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Small (up to 20 lbs):<strong>$70</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Medium (21-40 lbs): <strong>$80</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Large (41-75 lbs): <strong>$90</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XLarge (76-100 lbs): <strong>$110</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XXLarge (over 100 lbs): <strong>$120</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Basic Bath, Blow Dry, Brush Out, Nail Trim, Ear Cleaning</p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Small (up to 20 lbs): <strong>$50</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Medium (21-40 lbs): <strong>$55</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Large (41-75 lbs): <strong>$65</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XLarge (76-100 lbs): <strong>$70</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XXLarge (over lbs):<strong>$80</strong> </p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px; font-weight: bold;">Spa Package (Nail Grind/Trim, Special Shampoo, Teeth & Glands): $15</p>
-    			
-		</section>
+   <div id="services"><!-- Beginning of the services section -->
+    <h1>Services</h1><!-- Heading for the Services section -->
+    	<div class="service" id="HaircutBath"> <!-- Identifying the Section for Full-Groom/Bath services -->
+    		<h2>Full-Groom/Bath</h2><!-- h2 sub heading for the Full-Groom/Bath section (appears first above the content box) -->
+    			<p class="subtitle">(Appointment Needed)</p><!-- Subtitle that will appear below the sub heading, above the content box -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Basic All-Over Haircut, Bath, Face-Feet & Sanitary Trim:</p><!-- Title, Specifying what is included in the Full-Groom Service -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Small (up to 20 lbs):<strong>$70</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Medium (21-40 lbs): <strong>$80</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Large (41-75 lbs): <strong>$90</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XLarge (76-100 lbs): <strong>$110</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XXLarge (over 100 lbs): <strong>$120</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Basic Bath, Blow Dry, Brush Out, Nail Trim, Ear Cleaning</p><!-- Specifying what is included in the Bath Service -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Small (up to 20 lbs): <strong>$50</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Medium (21-40 lbs): <strong>$55</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Large (41-75 lbs): <strong>$65</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XLarge (76-100 lbs): <strong>$70</strong></p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• XXLarge (over lbs):<strong>$80</strong> </p><!--  Specified pricing for size of dog -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px; font-weight: bold;">Spa Package (Nail Grind/Trim, Special Shampoo, Teeth & Glands): $15</p><!-- Add on package available for haircuts/baths -->	
+		</div><!-- End of Full-Groom/Bath services section -->
 		
-        <section class="service" id="Walk-in">
-    		<h2>Walk-In/Add-Ons</h2>
-    			<p class="subtitle">(No Appointment Needed)</p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Walk-in:</p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Pawdicure (Nail Trim/Grind, Teeth & Ears):<strong>$20</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Nail Grind: <strong>$12</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Nail Trim: <strong>$6</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Ear Cleaning/Plucking: <strong>$10</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Dematting: <strong>$10 per 15 mins</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Teeth Brushing: <strong>$10</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Gland Expression: <strong>$10</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Add-Ons:</p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• De-Shed package: <strong>$20</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Flea & Tick Shampoo: <strong>$5</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Conditioner: <strong>$5</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Teeth Brushing: <strong>$6</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Nail Grinding: <strong>$8</strong></p>
-    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Express Service (Shorter wait time): <strong>$20</strong></p>
-    			
-		</section>
-    </section>
+        <div class="service" id="WalkIn"> <!-- Identifying the Section for Walk-in services -->
+    		<h2>Walk-In/Add-Ons</h2><!-- h2 sub heading for the Walk-in section (appears first above the content box) -->
+    			<p class="subtitle">(No Appointment Needed)</p><!-- Subtitle that will appear below the sub heading, above the content box -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Walk-in Services:</p><!-- Title, Specifying the Walk-In Services -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Pawdicure (Nail Trim/Grind, Teeth & Ears):<strong>$20</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Nail Grind: <strong>$12</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Nail Trim: <strong>$6</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Ear Cleaning/Plucking: <strong>$10</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Dematting: <strong>$10 per 15 mins</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Teeth Brushing: <strong>$10</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Gland Expression: <strong>$10</strong></p><!-- Type of Walk-In Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 20px; font-weight: bold;">Add-On Services:</p><!-- Title, Specifying the Add-on Services -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• De-Shed package: <strong>$20</strong></p><!-- Type of Add-On Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Flea & Tick Shampoo: <strong>$5</strong></p><!-- Type of Add-On Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Moisturizing Conditioner: <strong>$5</strong></p><!-- Type of Add-On Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Teeth Brushing: <strong>$6</strong></p><!-- Type of Add-On Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Nail Grinding: <strong>$8</strong></p><!-- Type of Add-On Service available -->
+    			<p style="font-family: 'Comic Sans MS'; font-size: 18px;">• Express Service (Shorter wait time): <strong>$20</strong></p><!-- Type of Add-On Service available -->
+  			
+		</div><!-- End of Walk-In/Add-Ons services section -->
+    </div><!-- End of Services section -->
 	
 	
-   <footer>
-        <p>© 2024 Furever Fluffy Dog Grooming  ♦  1200 W International Speedway Blvd, Daytona Beach, FL 32114  ♦  (386)506-3000  </p>
-    </footer>
-</body>
+   <footer><!--  Beginning of footer -->
+        <p>© 2024 Furever Fluffy Dog Grooming 
+         ♦  1200 W International Speedway Blvd, 
+         Daytona Beach, FL 32114  ♦  (386)506-3000  </p><!-- Footer content assigned to every page -->
+    </footer><!-- end of footer -->
+</body><!-- end of body -->
 </html>
