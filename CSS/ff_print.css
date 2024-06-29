@@ -1,100 +1,112 @@
 @charset "utf-8";
 
+	 /*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy Print
+	Filename: ff_print.css 
+	Author:	Brooke Myers
+	Date:
+
+*/
 	 
 
 	
 @media print {
 	
 	header, nav, footer, .horizontal-links {
-		display: none;
+	display: none;
 	}
     
     body {
-        width: 100%;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
     }
     
     
 /* Services Section */
     
     #services h1 {
-    	display: none;
+    display: none;
     }
     
     
-    #Haircut-Bath {
-        page-break-after: always;
+    #HaircutBath {
+    page-break-after: always;
     }
 
-    #Walk-in {
-        page-break-before: always;
+    #WalkIn {
+    page-break-before: always;
     }
 
     #services {
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        top: 80px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 80px;
     }
 
-    .service-container {
-        display: block;
-        width: 100%;
-        margin-top: 20px;
-        
+    .serviceContainer {
+    display: block;
+    width: 100%;
+    margin-top: 20px; 
     }
 
     .service {
-        width: 80%; 
-        top: 200px;
-        margin: 30px auto;
-        padding: 20px;
-        border: 2px solid black;
-        background-color: white;
-        page-break-before: always; 
+    width: 80%; 
+    top: 200px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+    page-break-before: always; 
     }
     
-    .service-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh; 
+    .serviceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
     }
     
 /* About Us Section */   
 
-	.about-section {
+	.aboutSection {
 	margin-top: 100px;
 	font-size: 14px;
-        page-break-after: always;
+    page-break-after: always;
     }
 
-    .groomer-photos {
-        display: block;
-        margin-top: 80px;
-        page-break-before: always;
+    .groomerPhotos {
+    display: block;
+    margin-top: 80px;
+    page-break-before: always;
     }
 
-    .groomer-photo {
-        width: 100%; 
-        height: auto;
-        margin-top: 80px;
-        margin-bottom: 50px; 
+    .groomerPhoto {
+    width: 100%; 
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 50px; 
     }
 
  
-/* Homepage Section */    
+/* Index/Homepage Section */    
 
     #companyOverview {
-        width: 100%;
-        float: none;
-        margin: 0;
-        padding: 20px;
-        page-break-after: always; 
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 20px;
+    page-break-after: always; 
     }
 	
 	#prev, #next {
@@ -103,30 +115,30 @@
 
     
     #portfolio {
-        width: 100%;
-        float: none;
-        margin: 0;
-        padding: 20px;
-        page-break-before: always; 
+    width: 100%;
+    float: none;
+    margin: 0;
+    padding: 20px;
+    page-break-before: always; 
     }
 
     #portfolio img {
-        width: 40%;
-        float: left;
-        margin-right: 20px;
+    width: 40%;
+    float: left;
+    margin-right: 20px;
     }
 
     #imageDescription {
-        width: 50%;
-        float: right;
-        font-size: 1.2em;
-        margin-top: 0;
+    width: 50%;
+    float: right;
+    font-size: 1.2em;
+    margin-top: 0;
     }
 
     #portfolio::after {
-        content: "";
-        display: table;
-        clear: both;
+    content: "";
+    display: table;
+    clear: both;
     }
     
     
@@ -137,45 +149,45 @@
 	}
 	
 	.testimonials {
-        display: block; 
-        padding: 20px;
-        background-color: white;
-        margin-top: 50px;
+    display: block; 
+    padding: 20px;
+    background-color: white;
+    margin-top: 50px;
     }
 
     .testimonials h2 {
-        text-align: center;
-        font-size: 2em;
-        font-family: 'Comic Sans MS';
-        margin-bottom: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Comic Sans MS';
+    margin-bottom: 20px;
     }
 
     .testimonial {
-        background-color: rgb(255, 105, 180);
-        padding: 20px;
-        border-radius: 10px;
-        display: flex;
-        align-items: flex-start;
-        box-sizing: border-box;
-        margin-bottom: 10px; 
-        page-break-inside: avoid;
+    background-color: rgb(255, 105, 180);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+    page-break-inside: avoid;
     }
 
     .testimonial img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-right: 20px;
-        margin-top: 80px;
-        object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 80px;
+    object-fit: cover;
     }
 
     .testimonial p {
-        margin-top: 80px;
-        font-size: 1.2em;
-        font-family: 'Comic Sans MS';
-        color: black;
-        flex: 1;
+    margin-top: 80px;
+    font-size: 1.2em;
+    font-family: 'Comic Sans MS';
+    color: black;
+    flex: 1;
     }
 	
 	
