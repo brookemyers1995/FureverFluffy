@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy Layout
+	Filename: ff_layout.css 
+	Author:	Brooke Myers
+	Date:
+
+*/
 
 
 
@@ -8,149 +21,142 @@
 	
 	
     html, body {
-    	background: none; 
-        width: 100%; 
-        max-width: 100%; 
-        overflow-x: hidden;
+    background: none; 
+    width: 100%; 
+    max-width: 100%; 
+    overflow-x: hidden;
     }
 
     header {
-    	display: flex; 
-        flex-direction: column;
-        justify-content: center;
-        height: auto; 
-        background-size: cover; 
-        background-position: center; 
-        align-items: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: auto; 
+    background-size: cover; 
+    background-position: center;
+    align-items: center;
     }
 
     header img {
-        width: 80%; 
-        max-height: 150px; 
-        object-fit: contain; 
-        padding-top: 20px;
-        
+    width: 80%; 
+    max-height: 150px; 
+    object-fit: contain; 
+    padding-top: 20px;  
     }
     
-    header h1 {
-    	display: none;
-    }
-    
+   
     
 /* Services Media Devices Layout */
-
+	
+	#services h1 {
+		display:none;
+	}
     
     #services {
-        flex-direction: column; 
-        margin-top: 20px; 
-        padding-bottom: 20px; 
-        max-width: 100%; 
+    flex-direction: column; 
+    margin-top: 20px; 
+    padding-bottom: 20px; 
+    max-width: 100%; 
     }
 
     
     .service {
-        flex: none; 
-        width: 90%; 
-        margin: 10px auto; 
-        top: 0; 
-        min-width: 0; 
-        max-width: none;
-	font-family: 'Comic Sans MS'; 
+    flex: none; 
+    width: 90%; 
+    margin: 10px auto; 
+    top: 0; 
+    min-width: 0; 
+    max-width: none; 
     }
 
 
-    .service h2, #Walk-in h2, #Haircut-Bath h2 {
-        font-size: 20px; 
-	font-family: 'Comic Sans MS'; 
-        position: relative;
-        top: 0; 
-        right: 0; 
-        transform: none; 
-        margin-top: 10px; 
+    .service h2, #WalkIn h2, #HaircutBath h2 {
+    font-size: 20px; 
+    position: relative;
+    top: 0; 
+    right: 0; 
+    transform: none; 
+    margin-top: 10px; 
     }
-
     
+ 
+
+    /* Adjust subtitles */
     .subtitle {
-        top: 0; 
-        right: 0; 
-        transform: none; 
-        position: relative; 
-        font-size: 14px; 
-	font-family: 'Comic Sans MS'; 
+    top: 0; 
+    right: 0; 
+    transform: none; 
+    position: relative; 
+    font-size: 14px; 
     }
 
 /* About Us Section Layout for Mobile Devices */
 
-	article > h2 {
-		display: none;
+	.aboutSection h2 {
+	display: none;
 	}
 
-	.groomer-photos {
-        flex-direction: column; 
-        align-items: center; 
+	.groomerPhotos {
+    flex-direction: column; 
+    align-items: center; 
     }
     
-    .groomer-photo {
-        width: 100%; 
-        margin-bottom: 20px; 
+    .groomerPhoto {
+    width: 100%; 
+    margin-bottom: 20px;
     }
 
 /* Testimonials Section Layout for Mobile Devices */
 
 	.testimonials h2 {
-        display: none;
+    display: none;
     }
 	
 	.testimonials {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-	font-family: 'Comic Sans MS'; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     }
 
     .testimonial {
-        width: 100%;
-        margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
     }
 
     /* Stack horizontal links vertically */
-    .horizontal-links {
-        flex-direction: column;
-        row-gap: 10px;
-        column-gap: 0;
-        
+    .horizontalLinks {
+     flex-direction: column;
+     row-gap: 20px;
+     column-gap: 0;  
     }
 
-    .horizontal-links a {
-        width: 100%;
-        text-align: center;
-        padding: 5px;
-	font-family: 'Comic Sans MS'; 
-        
+    .horizontalLinks a {
+    width: 100%;
+    text-align: center;
+    padding: 5px;    
     }
 
 
 /* Navigation for Mobile Devices */
 
 	nav.horizontal {
-		box-shadow: none;
+	box-shadow: none;
 	}
 
     nav.horizontal ul {
-        flex-direction: column; 
-        padding: 0; 
-        
+    flex-direction: column;
+    padding: 0;     
     }
 
     nav.horizontal li {
-        font-size: 1em; 
-        padding: 8px; 
-        line-height: 0.5;
-        border-bottom: 1px solid purple;
+    font-size: 1em; 
+    padding: 8px; 
+    line-height: 0.5;
+    border-bottom: 1px solid purple;
     }
 
     nav.horizontal li a {
-        padding: 8px; 
+    padding: 8px;
     }
     
     
@@ -158,77 +164,68 @@
 /* Home Overview Style for Mobile Devices */
 
     #portfolio, #companyOverview {
-        width: 100%; 
-        float: none; 
-        padding: 10px; 
-        
+    width: 100%; 
+    float: none; 
+    padding: 10px; 
     }
     
 /* Home Portfolio Style for Mobile Devices */
 
     #portfolio img {
-        width: 100%; 
-        height: auto; 
-        
+    width: 100%; 
+    height: auto;   
     }
 
     #navigation {
-        flex-direction: column; 
-        margin-top: 5px;
+    flex-direction: column;
+    margin-top: 5px; 
     }
 
     #prev, #next {
-        margin: 10px auto; 
-        font-size: 1.2em; 
+    margin: 10px auto;
+    font-size: 1.2em;
     }
     
-
-/* Footer Styles for Mobile Devices */
-
-    footer {
-        padding: 10px 0; 
-        font-size: 0.8em; 
-    }
-}
-
 /* Shop Style for Mobile Devices */
 	
 	#shop h2 {
 		display: none;
 	}
 
-	.shop-items {
+	.shopItems {
         flex-direction: column;
         align-items: center;
     }
 
-    .shop-items .item {
+    .shopItems .item {
         width: 100%;
         margin-bottom: 80px;
     }
 
-    .shop-items .item h3 {
+    .shopItems .item h3 {
         font-size: 1.5em;
         margin-bottom: 10px;
     }
 
-    .shop-items .item img {
+    .shopItems .item img {
         width: 100%;
         border-radius: 10px;
         height: auto;
         margin-bottom: 10px;
     }
 
-    .shop-items .item p {
+    .shopItems .item p {
         font-size: 1.2em;
         margin-bottom: 10px;
     }
 
-    .shop-items .item a {
+    .shopItems .item a {
         font-size: 1.2em;
     }
     
-    .contact-container {
+/* Contact Us Layout for Mobile Devices */
+
+	.contactContainer {
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -237,110 +234,118 @@
         
     }
 
-    .contact-info, .contact-map, .contact-form {
+    .contactInfo, .contactMap, .contactForm {
         width: 100%;
         margin: 10px 0;
-        padding: 10px;
+        padding: 40px;
         box-sizing: border-box;
         border-radius: 10px;
     }
 
-    .contact-map iframe {
-        width: 100%;
+    .contactMap iframe {
+        width: 105%;
         height: auto;
+        min-height: 300px; 
+        border: 0;
     }
 
-    .contact-form form {
+    .contactForm form {
         width: 100%;
     }
 
-    .contact-form input[type="text"],
-    .contact-form input[type="email"],
-    .contact-form textarea {
+    .contactForm input[type="text"],
+    .contactForm input[type="email"],
+    .contactForm textarea {
         width: 100%;
         box-sizing: border-box;
     }
+
+    
+
+/* Footer Styles for Mobile Devices */
+
+    footer {
+    padding: 10px 0; 
+    font-size: 0.8em; 
+    }
+}
 
 /*Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
 	
 	html, body {
-    	background: none; 
-        width: 100%; 
-        max-width: 100%; 
-        overflow-x: hidden;
-        height: auto;
+    background: none; 
+    width: 100%; 
+    max-width: 100%; 
+    overflow-x: hidden;
+    height: auto;
     }
     
 
     header {
-    	display: flex; 
-        flex-direction: column;
-        justify-content: center;
-        height: auto; 
-        background-size: cover; 
-        background-position: center; 
-        align-items: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    height: auto; 
+    background-size: cover;
+    background-position: center; 
+    align-items: center;
     }
 
     header img {
-        width: 80%; 
-        max-height: 150px; 
-        object-fit: contain; 
-        padding-top: 20px;
-        
+    width: 80%; 
+    max-height: 150px; 
+    object-fit: contain; 
+    padding-top: 20px;  
     }
    
 
 	header h1 {
-		display: none;
+	display: none;
 	}
 	
 	article > h2 {
-		display: none;
+	display: none;
 	}
 	
 	
 	 #services {
-    	display: flex;
-    	flex-direction: column; 
-    	align-items: center; 
-    	justify-content: flex-start; 
-    	width: 100%; 
-    	margin: 0 auto; 
-    	padding: 20px 0 50px 0; 
-    	box-sizing: border-box;
+     display: flex;
+     flex-direction: column; 
+     align-items: center; 
+     justify-content: flex-start; 
+     width: 100%; 
+     margin: 0 auto; 
+     padding: 20px 0 50px 0; 
+     box-sizing: border-box;
 	}
 
 	.service {
-	top: 30px;
-    	width: 100%; 
-    	margin: 50px 0; 
-    	padding: 20px;
-    	border: 2px solid black;
-    	background-color: rgb(255, 105, 180); 
-    	text-align: center;
-    	box-sizing: border-box; 
+ 	top: 30px;
+    width: 100%; 
+    margin: 50px 0; 
+    padding: 20px;
+    border: 2px solid black;
+    background-color: rgb(255, 105, 180); 
+    text-align: center;
+    box-sizing: border-box; 
 	}
 	
 	
 	
-	
-	
-    
+    /* Additional tablet-specific styles */
     nav {
-        padding: 0px; 
+    padding: 0px; 
     }
 
     .content {
-        padding: 20px; 
-        font-size: 1.2em; 
+    padding: 20px; 
+    font-size: 1.2em; 
     }
     
     .testimonials h2 {
-        display: none;
+    display: none;
     }
+    
+    
 }
-
-
-	
