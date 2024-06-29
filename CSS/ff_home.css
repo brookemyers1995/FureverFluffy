@@ -7,7 +7,7 @@
 	Professor Anindya Paul
 	
 	
-	Furever Fluffy
+	Furever Fluffy Home
 	Filename: ff_home.css 
 	Author:	Brooke Myers
 	Date:
@@ -15,114 +15,101 @@
 */
 
 
+/* Article Style*/
 
-
-/* Article Styles*/
-
-
-
-article {
-    padding: 10px;
-    background-color: #ffffff; 
-    
-}
+	article {
+    padding: 10px; /* Adds padding inside of the article */
+    background-color: white; /* Sets the article background to white */ 
+    }
 
 
 /* Portfolio Section Styles */
 
-#portfolio {
-    width: 60%;
-    float: left; 
-    padding: 17px;
-    box-sizing: border-box;
-}
-
-
-
-#navigation {
-    display: flex;
-    justify-content: center; 
-    margin-top: 10px; 
-}
-
-#companyOverview h2 {
-    color: rgb(46, 1, 126);
-}
-
-#portfolio img {
-    width: 100%; 
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 15px;
-}
-
-#imageDescription {
-    margin-bottom: 20px;
-    font-size: 1.5em;
-}
-
-
-#prev {
-    font-size: 1.4em;
-    padding: 5px 10px;
-    color: white;
-    background-color: rgb(46, 1, 126);
-    text-decoration: none;
-    margin-right: 20px; 
-    
-}
-
-#next {
-    font-size: 1.4em;
-    padding: 5px 10px;
-    color: white;
-    background-color: rgb(46, 1, 126);
-    text-decoration: none;
-    margin-left: 20px; 
-}
-
-#prev:hover, #next:hover {
-    background-color: black;
-}
-
-
-
-
-#companyOverview {
-	background-color: rgb(255, 105, 180);
-    width: 40%;
-    float: right; 
-    padding: 22px;
-    border-radius: 15px;
-    box-sizing: border-box;
-    font-size: 18px; 
-    line-height: 1.6;
-    margin-top: 18px;
-    padding-bottom: 10px; 
-    
-    
-}
-
-
-#video-section {
-    clear: both; 
-    padding: 20px;
-    background-color: white;
-    text-align: center;
+	#portfolio {
+    width: 60%; /* Sets the width of the portfolio section */
+    float: left; /* Makes the portfolio section float on the left side of the page */
+    padding: 17px; /* Adds space inside of the portfolio section */
+    box-sizing: border-box; /* This will include the padding and border in the portfolio's width and height */
 	}
 
-	#video-section h2 {
-    font-family: 'Comic Sans MS';
-    font-size: 32px;
-    color: rgb(46, 1, 126);
-    margin-bottom: 20px;
+	#navigation {
+    display: flex; /* Tells the ID navigation to use a flexbox layout */
+    justify-content: center; /* Centers the navigation items horizontally within the page */
+    margin-top: 10px; /* Adds space above the navigation section */
 	}
 
-	#video-section video {
-    width: 80%;
-    border: 1px solid black;
-    border-radius: 20px;
-    margin-bottom: 20px;
+	#companyOverview h2 {
+    color: rgb(46, 1, 126); /* Sets the h2 heading inside the companyOverview to the set rgb colors*/
+	}
+
+	#portfolio img { 
+    width: 100%; /* Sets the width of the images inside the ID portfolio to 100% of that section */
+    height: auto; /* Makes the height adjust automatically based off the original sizing of the image*/
+    margin-bottom: 10px; /* Adds space below the images */
+    border-radius: 15px; /* Makes the corners of the images slightly rounded */
+	}
+
+	#imageDescription {
+    margin-bottom: 20px; /* Adds space below the image description */
+    font-size: 1.5em; /* Sets the size of the font in the image description */
+	}
+	
+
+	#prev {
+    font-size: 1.4em; /* Sets the font size of the ID "prev" */
+    padding: 5px 10px; /* Adds 5px of space on the top and bottom and 10px of space on the left and right of the ID "prev" */
+    color: white; /* Sets the font color of "prev" to white */
+    background-color: rgb(46, 1, 126); /* Sets the background color of the "prev" box to the set rgb color */
+    text-decoration: none; /* Removes the underline front the text "prev" */
+    margin-right: 20px; /* Adds space to the right side of the the "prev" box */
+    }
+
+	#next {
+    font-size: 1.4em; /* Sets the font-size of "next" */
+    padding: 5px 10px;/* Adds 5px of space on the top and bottom and 10px of space on the left and right of the ID "next" */
+    color: white; /* Sets the font color of "next" to white */
+    background-color: rgb(46, 1, 126); /* Sets the background color of the "next" box to the set rgb color */
+    text-decoration: none; /* Removes the underline front the text "next" */
+    margin-left: 20px; /* Adds space to the right side of the the "next" box */
+	}
+
+	#prev:hover, #next:hover {
+    background-color: black; /* Makes the background color black for both the "prev" and "next" buttons when hovering over it*/
+	}
+
+	#companyOverview {
+	background-color: rgb(255, 105, 180); /* Sets the background color of the "companyOverview box to the set rgb values" */
+    width: 40%; /* Sets the width of the "companyOverview" box to the set value of 40% */
+    float: right;  /* Positions the "company"Overview" box on the right side of the article container */
+    padding: 22px; /* Adds 22px of space inside the "companyOverview" box */
+    border-radius: 15px; /* Makes the corners of the "companyOverview" box to be slightly rounded */
+    box-sizing: border-box; /* This will include the padding and border in the "companyOverview" width and height */
+    font-size: 18px;  /* Sets the font-size of the information inside the "companyOverview" to the set value */
+    font-family: 'Comic Sans MS'; /* Sets the font style of text inside the "companyOverview" to 'comic sans ms' */
+    line-height: 1.6; /* Sets the spacing between each line of text in "companyOverview" */
+    margin-top: 18px; /* Adds space above the "companyOverview" */
+    padding-bottom: 10px; /* Adds space at the bottom of the "companyOverview" */
+	}
+	
+	#videoSection {
+    clear: both; /* Stops the ID videoSection from floating on the right and left sides */
+    padding: 20px; /* Adds space inside the "videoSection" */
+    background-color: white; /* Makes the background color of the "videoSection" set to white */
+    text-align: center; /* Centers the video and text in the middle*/
+	}
+
+	#videoSection h2 {
+    font-family: 'Comic Sans MS'; /* Sets the h2 heading of the "videoSection" to the font 'comic sans ms'*/
+    font-size: 32px; /* Sets the font size to the set values */
+    color: rgb(46, 1, 126); /* Sets the font color of the h2 heading to the set rgb values */
+    margin-bottom: 20px; /* Adds space below the h2 heading of "videoSection" */
+	}
+
+	#videoSection video {
+    width: 80%; /* Sets the width of the video in the "videoSection" */
+    border: 1px solid black; /* Adds the type of border the video will have in the "videoSection"  */
+    border-radius: 20px; /* Makes the video have slightly rounded corners */
+    margin-bottom: 20px; /* Adds some space below the video */
 	}
 
 
