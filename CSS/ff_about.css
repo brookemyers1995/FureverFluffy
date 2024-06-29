@@ -7,7 +7,7 @@
 	Professor Anindya Paul
 	
 	
-	Furever Fluffy
+	Furever Fluffy About
 	Filename: ff_about.css 
 	Author:	Brooke Myers
 	Date:
@@ -15,58 +15,48 @@
 */
 
 /* About Section Styles */
+	
 
-header {
-    box-shadow: none; 
-}
+	article {
+    flex-grow: 1;  /* Makes the article grow in size and fill up any extra space */
+    display: flex; /* This tells the browser to use a flexbox type layout for the article section */
+    flex-direction: column; /* Displays the flexbox as a column */
+    margin-bottom: 80px;    /* Adds space below the article */
+	}
 
-header h1 {
-    display: none;
-}
+	.aboutSection h2 {
+    text-align: center; /* Centers the h2 heading within its class "aboutSection" */
+    margin-top: 30px; /* Adds space above the heading */
+    margin-bottom: 30px; /* Adds space below the heading */
+    color: rgb(46, 1, 126); /* Sets the font of the h2 heading to set rgb values*/
+    font-size: 34px;  /* Sets the of the font in the h2 heading */
+    font-family:'Comic Sans MS'; /* Sets the font style to comic sans ms in the h2 heading */
+	}
 
-article {
-    flex-grow: 1;  /* This will make the article expand to fill available space */
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 80px;
-}
+	.aboutSection {
+    background-color: white; /* Sets the background color of the aboutSection container to white */
+    padding: 20px 40px; /* Adds 20 pixels of space inside the "aboutSection" container to the top/bottom and 40 pixels to the left and right  */
+    border-radius: 60px; /* Rounds out the corners of the "aboutSection" container  to the set amount of pixels*/
+    text-align: center; /* Centers the text inside the "aboutSection" container */
+    font-size: 20px; /* Sets the font size of the text within the "aboutSection" container */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the text within the "aboutSection" container */
+    border: 1px solid black; /* Adds a 1 pixel sized solid black border around the "aboutSection" container */
+    margin-top: 20px; /* Adds space above the "aboutSection" container */
+    margin-left: 33px; /* Adds space to the left of the "aboutSection" container */
+    margin-right: 33px; /* Adds space to the right of the "aboutSection" container */
+    margin-bottom: 20px; /* Adds space below the "aboutSection" container */
+	}
 
-article > h2 {
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px; 
-    color: #000; 
-    font-size: 40px; 
-    font-family:'Comic Sans MS'; 
-}
+	.groomerPhotos {
+    display: flex;  /* Tells the browser to use a flexbox type layout for the "groomerPhotos" section */
+    justify-content: space-around; /* Inserts space evenly around the added images */
+    padding: 10px; /* Adds 10 pixels of space inside the "groomerPhotos" section */
+    margin-top: 50px; /* Adds space above the pictures */
+	}
 
-.about-section {
-    background-color: white; /* White background */
-    padding: 20px 40px;
-    border-radius: 60px;
-    text-align: center;
-    font-size: 20px;
-    font-family: 'Comic Sans MS';
-    border: 1px solid #000;
-    margin-top: 20px;
-    margin-left: 33px; /* Adds space on the left */
-    margin-right: 33px;
-    margin-bottom: 20px; /* Space between about section and photos */
-
-
-}
-
-.groomer-photos {
-    display: flex;
-    justify-content: space-around; /* Centers and adds space between photos */
-    padding: 10px;
-    margin-top: 50px;
-}
-
-.groomer-photo {
-    width: 45%; /* Adjusts the width of each photo to fit side by side */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 30px;
-   
-}
+	.groomerPhoto {
+    width: 45%; /* Sets the width of each picture in the "groomerPhoto" container */
+    height: auto; /* Makes the height adjust automatically based off the original proportions of the image*/
+    border-radius: 30px; /* Gives the corners of the images a slightly rounded appearance */
+   	}
 
