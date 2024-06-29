@@ -14,125 +14,133 @@
  -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furever Fluffy Dog Grooming - Schedule</title>
-    <link rel="stylesheet" href="CSS/ff_styles.css">
-    <link rel="stylesheet" href="CSS/ff_shop.css">
-    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/>
-    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/>
+    <meta charset="UTF-8"><!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Makes sure there is proper rendering and touch zooming on mobile devices -->
+    <title>Furever Fluffy Dog Grooming - Schedule</title><!-- The title of the website -->
+    <link rel="stylesheet" href="CSS/ff_styles.css"><!-- Base styling for all pages -->
+    <link rel="stylesheet" href="CSS/ff_shop.css"><!-- Styling Specifically for the Shop page -->
+    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/><!-- Layout for Mobile Devices and Tablet/Desktop Devices -->
+    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/><!-- Layout for Printing -->
 </head>
 <body>
-    <header>
-	<a href="index.html">
-        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;">
-        <h1>Furever Fluffy Dog Grooming</h1>
-	</a>
-    </header>
+    <header><!-- opening of the header section -->
+    	<a href="index.html"><!-- link for logo, clicking will redirect you to the index -->
+        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;"><!-- Logo source --> 
+        </a><!-- closing the link section --> 
+    </header><!-- closing of the header -->
 
-    <nav class="horizontal">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ff_services.html">Services</a></li>
-            <li><a href="ff_about.html">About Us</a></li>
-            <li><a href="ff_testimonials.html">Testimonials</a></li>
-            <li><a href="ff_contact.html">Contact Us</a></li>
-            <li><a href="ff_schedule.html">Schedule</a></li> 
-            <li><a href="ff_shop.html">Shop</a></li>
-        </ul>
-    </nav>
+    <nav class="horizontal"><!-- Navigation Bar to link to other sections in the webpage -->
+        <ul><!-- beginning of unordered list -->
+            <li><a href="index.html">Home</a></li><!-- link to the index -->
+            <li><a href="ff_services.html">Services</a></li><!-- link to the Services Section -->
+            <li><a href="ff_about.html">About Us</a></li><!-- Link to the About Us Section -->
+            <li><a href="ff_testimonials.html">Testimonials</a></li><!-- Link to the testimonials section -->
+            <li><a href="ff_contact.html">Contact Us</a></li><!-- Link to the contact us section -->
+            <li><a href="ff_schedule.html">Schedule</a></li> <!-- Link to the Schedule Section -->
+            <li><a href="ff_shop.html">Shop</a></li><!-- Link to the Shop Section -->
+        </ul><!-- ending of unordered list -->
+    </nav><!-- closing navigation section -->
 	
-	<section id="shop">
-        <h2>Shop</h2>
-        <div class="shop-info">
+	<div id="shop"><!-- Identifying the shop section -->
+        <h2>Shop</h2><!-- h2 heading that appears at the top of the page -->
+        <div class="shopInfo"><!-- Identifying Container for the class "shopInfo" -->
             <p>Our groomers recommend these items to help every pet parent keep 
             their furry friend healthy and happy. If you're interested in purchasing 
             any of these items, please click the image or link. We don't sell products 
-            ourselves; we simply advertise what we believe is best for your pet.</p>
+            ourselves; we simply advertise what we believe is best for your pet.</p><!-- Information that will 
+            appear before the shop items -->
         </div>
-        <div class="shop-items">
+        <div class="shopItems"><!-- Classifying the "shopItems" container -->
         
-            <div class="item">
-                <h3>Slicker Brush $17.99</h3>
-                <a href="https://www.amazon.com/gp/product/B014PFS2VE/ref=ewc_pr_img_9?smid=A3J46SMEQGR7P4&psc=1"><img src="Images/ff_shop1.jpg" alt="Slicker Brush"></a>               
-                <p> Regular use of a slicker brush on your dog is important to prevent matting,
-                 remove loose fur, and maintain a healthy coat by distributing natural oils and 
-                 stimulating the skin.</p>
-                 <p></br></p>
-                 <p><a href="https://www.amazon.com/gp/product/B014PFS2VE/ref=ewc_pr_img_9?smid=A3J46SMEQGR7P4&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Slicker Brush $17.99</h3><!-- heading for the first item -->
+                <a href="https://www.amazon.com/gp/product/B014PFS2VE/ref=ewc_pr_img_9?smid=A3J46SMEQGR7P4&psc=1"><img src="Images/ff_shop1.jpg" alt="Slicker Brush"></a>   <!-- Link for this item -->            
+                <p> Regular use of a slicker brush is important to prevent matting and to promote healthy 
+                skin by distributing natural oils to the hair follicles.</p><!-- Description of item goes here -->
+                 <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                 <p><a href="https://www.amazon.com/gp/product/B014PFS2VE/ref=ewc_pr_img_9?smid=A3J46SMEQGR7P4&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Greyhound Comb $5.99</h3>
-                <a href="https://www.amazon.com/gp/product/B08PCZT5VZ/ref=ewc_pr_img_8?smid=A39GMF5HDYC8A3&psc=1"><img src="Images/ff_shop2.jpg" alt="Greyhound Comb"></a>
-                <p>A greyhound comb often helps prevent tangles and maintains a healthy, smooth coat.</p>
-                <p></br></p>
-                <p><p><a href="https://www.amazon.com/gp/product/B08PCZT5VZ/ref=ewc_pr_img_8?smid=A39GMF5HDYC8A3&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Greyhound Comb $5.99</h3><!-- heading for the second item -->
+                <a href="https://www.amazon.com/gp/product/B08PCZT5VZ/ref=ewc_pr_img_8?smid=A39GMF5HDYC8A3&psc=1"><img src="Images/ff_shop2.jpg" alt="Greyhound Comb"></a><!-- Link for this item -->
+                <p>A greyhound comb, typically used after the slicker brush, is important for removing 
+                any tangles in your dog's coat.</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><p><a href="https://www.amazon.com/gp/product/B08PCZT5VZ/ref=ewc_pr_img_8?smid=A39GMF5HDYC8A3&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Shedding Brush $13.50</h3>
-                <a href="https://www.amazon.com/gp/product/B01ARX4LRC/ref=ewc_pr_img_1?smid=A3R7FM8M73GGD2&psc=1"><img src="Images/ff_shop3.jpg" alt="Shedding Brush"></a>
-                <p>A rubber curry (Zoom Groom) often helps remove loose hair and stimulates your dog's skin.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B01ARX4LRC/ref=ewc_pr_img_1?smid=A3R7FM8M73GGD2&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Shedding Brush $13.50</h3><!-- heading for the third item -->
+                <a href="https://www.amazon.com/gp/product/B01ARX4LRC/ref=ewc_pr_img_1?smid=A3R7FM8M73GGD2&psc=1"><img src="Images/ff_shop3.jpg" alt="Shedding Brush"></a><!-- Link for this item -->
+                <p>A Zoom Groom, also known as a rubber curry, helps remove loose hairs from the undercoat.
+                 Regular use will reduce shedding</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B01ARX4LRC/ref=ewc_pr_img_1?smid=A3R7FM8M73GGD2&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>DeShed Conditioner $12.75</h3>
-                <a href="https://www.amazon.com/gp/product/B09Y788BPW/ref=ewc_pr_img_7?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop4.jpg" alt="DeShed Conditioner"></a>
-                <p>Furminator conditioner helps reduce shedding and maintain a healthy coat.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B09Y788BPW/ref=ewc_pr_img_7?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>DeShed Conditioner $12.75</h3><!-- heading for the fourth item -->
+                <a href="https://www.amazon.com/gp/product/B09Y788BPW/ref=ewc_pr_img_7?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop4.jpg" alt="DeShed Conditioner"></a><!-- Link for this item -->
+                <p>Furminator conditioner helps reduce shedding by loosening the undercoat. It is 
+                recommended to let it sit on the coat for 5-10 minutes while massaging it into the skin.</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B09Y788BPW/ref=ewc_pr_img_7?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Tooth Brushing Kit $5.51</h3>
-                <a href="https://www.amazon.com/gp/product/B08QJNMHLZ/ref=ewc_pr_img_6?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop5.jpg" alt="Tooth Brushing Kit"></a>
-                <p>Arm & Hammer tooth brushing kit helps maintain your dog's dental health and fresh breath.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B08QJNMHLZ/ref=ewc_pr_img_6?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Tooth Brushing Kit $5.51</h3><!-- heading for the fifth item -->
+                <a href="https://www.amazon.com/gp/product/B08QJNMHLZ/ref=ewc_pr_img_6?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop5.jpg" alt="Tooth Brushing Kit"></a><!-- Link for this item -->
+                <p>An Arm & Hammer tooth brushing kit helps maintain your dog's dental hygiene and provides 
+                fresh breath. This toothpaste is enzymatic, which helps break down tartar and plaque.</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B08QJNMHLZ/ref=ewc_pr_img_6?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Paw Balm $11.99</h3>
-                <a href="https://www.amazon.com/gp/product/B01MSN3ZLW/ref=ewc_pr_img_5?smid=A2AE5H95SAEK7R&psc=1"><img src="Images/ff_shop6.jpg" alt="Moisturizing Paw Balm"></a>
-                <p>Paw Balm helps keep your dog's paws moisturized and protected.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B01MSN3ZLW/ref=ewc_pr_img_5?smid=A2AE5H95SAEK7R&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Paw Balm $11.99</h3><!-- heading for the sixth item -->
+                <a href="https://www.amazon.com/gp/product/B01MSN3ZLW/ref=ewc_pr_img_5?smid=A2AE5H95SAEK7R&psc=1"><img src="Images/ff_shop6.jpg" alt="Moisturizing Paw Balm"></a><!-- Link for this item -->
+                <p>Paw Balm is a topical cream that is applied to the paws, to moisturize and prevent cracking of the paw pads.</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B01MSN3ZLW/ref=ewc_pr_img_5?smid=A2AE5H95SAEK7R&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Oatmeal Shampoo $8.97</h3>
-                <a href="https://www.amazon.com/gp/product/B005CUTWDE/ref=ewc_pr_img_4?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop7.jpg" alt="Oatmeal Shampoo"></a>
-                <p>Wahl oatmeal shampoo soothes your dog's skin and keeps their coat clean and soft.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B005CUTWDE/ref=ewc_pr_img_4?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Oatmeal Shampoo $8.97</h3><!-- heading for the seventh item -->
+                <a href="https://www.amazon.com/gp/product/B005CUTWDE/ref=ewc_pr_img_4?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop7.jpg" alt="Oatmeal Shampoo"></a><!-- Link for this item -->
+                <p>Wahl oatmeal shampoo helps soothe your dog's skin and moisturizes the coat. This shampoo is recommended for dog's with sensitive skin.</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B005CUTWDE/ref=ewc_pr_img_4?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Nail Clipper Set $13.99</h3>
-                <a href="https://www.amazon.com/gp/product/B0879DQHPL/ref=ewc_pr_img_3?smid=A1RN8VZOES6LJK&psc=1"><img src="Images/ff_shop8.jpg" alt="Nail Clipper Set"></a>
-                <p>A Bretheil nail clipper set is important to keep your dog's nails trimmed and healthy.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B0879DQHPL/ref=ewc_pr_img_3?smid=A1RN8VZOES6LJK&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Nail Clipper Set $13.99</h3><!-- heading for the eighth item -->
+                <a href="https://www.amazon.com/gp/product/B0879DQHPL/ref=ewc_pr_img_3?smid=A1RN8VZOES6LJK&psc=1"><img src="Images/ff_shop8.jpg" alt="Nail Clipper Set"></a><!-- Link for this item -->
+                <p>A Bretheil nail clipper set is important to have on hand for maintaining the length of your dog's nails. Keeping nails clipped short 
+                prevents the nails from getting caught on surfaces or curling into the paw pads if too long. It's recommended to 
+                have "Kwik Stop" on standby in case you cut the nail too short.</p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B0879DQHPL/ref=ewc_pr_img_3?smid=A1RN8VZOES6LJK&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
-            <div class="item">
-                <h3>Kwik Stop $5.49</h3>
-                <a href="https://www.amazon.com/gp/product/B0002H3RBU/ref=ewc_pr_img_2?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop9.jpg" alt="Kwik Stop"></a>
-                <p>Using Kwik Stop Styptic Powder by Miracle Care is important to quickly stop bleeding from minor cuts, like quiking a nail while trimming.</p>
-                <p></br></p>
-                <p><a href="https://www.amazon.com/gp/product/B0002H3RBU/ref=ewc_pr_img_2?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p>
+            <div class="item"><!--  Classifying the "item" container for individual shop items -->
+                <h3>Kwik Stop $5.49</h3><!-- heading for the ninth item -->
+                <a href="https://www.amazon.com/gp/product/B0002H3RBU/ref=ewc_pr_img_2?smid=ATVPDKIKX0DER&psc=1"><img src="Images/ff_shop9.jpg" alt="Kwik Stop"></a><!-- Link for this item -->
+                <p>Having Kwik Stop Styptic Powder on hand is crucial if you plan on clipping your dog's nails. It is used to
+                stop the bleeding if a nail gets cut too short. Remember to apply pressure for a minute or two when using this product. </p><!-- Description of item goes here -->
+                <p></br></p><!-- line break to put spacing between the description and the additional link -->
+                <p><a href="https://www.amazon.com/gp/product/B0002H3RBU/ref=ewc_pr_img_2?smid=ATVPDKIKX0DER&psc=1">*Click here to buy on Amazon*</a></p><!-- Additional link for this item -->
             </div>
             
         </div>
-    </section>
+    </div>
 
 
 
-<footer>
-        <p>© 2024 Furever Fluffy Dog Grooming  ♦  1200 W International Speedway Blvd, Daytona Beach, FL 32114  ♦  (386)506-3000  </p>
-    </footer>
-</body>
+<footer><!--  Beginning of footer -->
+        <p>© 2024 Furever Fluffy Dog Grooming 
+         ♦  1200 W International Speedway Blvd,
+          Daytona Beach, FL 32114  ♦  (386)506-3000  </p><!-- Footer content assigned to every page -->
+    </footer><!-- end of footer -->
+</body><!-- end of body -->
 </html>
