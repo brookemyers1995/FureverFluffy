@@ -1,69 +1,86 @@
 @charset "utf-8";
 
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy Testimonials
+	Filename: ff_testimonials.css 
+	Author:	Brooke Myers
+	Date:
+
+
+
 
 /* Testimonials Section Styles */
-.testimonials {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
-    background-color: white;
-}
+	
+	
+	
+	.testimonials {
+    display: grid; /* Sets the ".testimonials" section in a grid layout*/
+    grid-template-columns: 1fr 1fr; /* Makes the layout as two columns with the widths being equal */
+    gap: 20px; /* This adds spacing between each item in the grid (between each review)*/
+    padding: 20px; /* Adds 20 pixels of space inside the ".testimonials" section */
+    background-color: white; /* Sets the background color of the testimonials section to white */
+	}
 
-.testimonials h2 {
-    grid-column: span 2;
-    text-align: center;
-    font-size: 2em;
-    font-family: 'Comic Sans MS';
-    margin-bottom: 20px;
-}
+	.testimonials h2 {
+    grid-column: span 2; /* Sets the h2 heading to spans across both columns, essentially placing it in the center of the page */
+    text-align: center; /* Sets the heading in the center of the page. (without it, itll be on the left side of the page) */
+    font-size: 34px; /* Sets the font size of the h2 heading to 34 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the h2 heading to comic sans ms */
+    color: rgb(46, 1, 126); /* Sets the h2 heading font color to the set rgb values */
+    margin-bottom: 20px; /* Adds space below the h2 heading */
+    margin: 0; /* Removes extra space around the h2 heading */
+	}
 
-.testimonial {
-    background-color: rgb(255, 105, 180);
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    align-items: flex-start;
-    box-sizing: border-box;
-}
+	.testimonial {
+    background-color: rgba(255, 105, 180, 0.5); /* Sets the background color of each review box */
+    padding: 20px; /* Adds 20 pixels of space inside each testimonial  */
+    border-radius: 10px; /* Adds rounded corners to each testimonial */
+    display: flex; /* This tells the browser to use a flexbox type layout for the .testimonial section */
+    box-sizing: border-box;/* This will include the padding and border in the .testimonial container's width and height */
+	}
 
-.testimonial img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 20px;
-    object-fit: cover;
-}
+	.testimonial img {
+    width: 50px; /*Sets the width of each customer's photo */
+    height: 50px; /* Sets the height of each customers photo */
+    border-radius: 50%; /* This makes each photo appear circular */
+    margin-right: 20px; /* Adds space to the right of each photo for better appearance */
+    object-fit: cover; /* This makes sure the entire image fits it container */
+	}
 
-.testimonial p {
-    margin: 0;
-    font-size: 1.2em;
-    font-family: 'Comic Sans MS';
-    color: black;
-    flex: 1;
-}
+	.testimonial p {
+    margin: 0; /* This sets the margin of each paragraph, essentially removing extra space by setting it to 0 */
+    font-size: 18px; /* This sents the paragraphs to the font size of 18 pixels*/
+    font-family: 'Comic Sans MS'; /* Sets the font style of the paragraphs to comic sans ms */
+    color: black; /* Sets the font color of each paragraph */
+	}
 
 /* Horizontal Links Section Styles */
-.horizontal-links {
-    display: flex;
-    justify-content: center;
-    column-gap: 80px;
-    padding: 20px;
-    margin-top: 20px;
-}
 
-.horizontal-links a {
-    font-family: 'Comic Sans MS';
-    font-size: 1.4em;
-    color: black;
-    text-decoration: none;
-    padding: 10px 20px;
-    background-color: rgb(255, 105, 180);
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
+	.horizontalLinks {
+    display: flex;  /* This tells the browser to use a flexbox type layout for the .horizontalLinks section */
+    justify-content: center; /* This centers everything inside of the .horizontalLinks flexbox horizontally */
+    column-gap: 80px; /* This adds space between each link */
+    padding: 20px; /* Adds 20 pixels of space inside each link  */
+    margin-top: 20px; /* Adds space above each link */
+	}
 
-.horizontal-links a:hover {
-    background-color: rgb(46, 1, 126);
-    color: white;
-}
+	.horizontalLinks a {
+    font-family: 'Comic Sans MS'; /* Sets the font style of each link to comic sans ms */
+    font-size: 26px; /* Sets the font size of each link to 26 pixels */
+    color: black; /* Sets the font color of each link to black */
+    text-decoration: none; /* Removes underlining */
+    padding: 10px 20px;  /* Adds 5px of space on the top and bottom and 10px of space on the left and right of the links */
+    background-color: rgba(128, 0, 128, 0.5); /* Sets the background color of the links to the set rgba values */
+    border-radius: 5px; /* Makes the corners of the links slightly rounded */
+	}
+
+	.horizontalLinks a:hover {
+    background-color: rgb(255, 105, 180); /* Makes the links appear hot pink when a mouse hovers over the link*/
+    color: white; /* When a mouse is hovering over the link, the text will appear white */
+	}
