@@ -14,65 +14,71 @@
  -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furever Fluffy Dog Grooming</title>
-    <link rel="stylesheet" href="CSS/ff_styles.css">
-    <link rel="stylesheet" href="CSS/ff_contact.css">
-    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/>
-    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/>
+    <meta charset="UTF-8"><!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Makes sure there is proper rendering and touch zooming on mobile devices -->
+    <title>Furever Fluffy Dog Grooming</title><!-- The title of the website -->
+    <link rel="stylesheet" href="CSS/ff_styles.css"><!-- Base styling for all pages -->
+    <link rel="stylesheet" href="CSS/ff_contact.css"><!-- Styling Specifically for the Contact Us page -->
+    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/><!-- Layout for Mobile Devices and Tablet/Desktop Devices -->
+    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/><!-- Layout for Printing -->
 </head>
 <body>
-    <header>
-	    <a href="index.html">
-        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;">
-        <h1>Furever Fluffy Dog Grooming</h1>
-	    </a>
-    </header>
+    <header><!-- opening of the header section -->
+    	<a href="index.html"><!-- link for logo, clicking will redirect you to the index -->
+        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;"><!-- Logo source -->  
+        </a><!-- closing the link section --> 
+    </header><!-- closing of the header -->
 
-    <nav class="horizontal">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ff_services.html">Services</a></li>
-            <li><a href="ff_about.html">About Us</a></li>
-            <li><a href="ff_testimonials.html">Testimonials</a></li>
-            <li><a href="ff_contact.html">Contact Us</a></li>
-            <li><a href="ff_schedule.html">Schedule</a></li>
-            <li><a href="ff_shop.html">Shop</a></li>
-        </ul>
-    </nav>
+    <nav class="horizontal"><!-- Navigation Bar to link to other sections in the webpage -->
+        <ul><!-- beginning of unordered list -->
+            <li><a href="index.html">Home</a></li><!-- link to the index -->
+            <li><a href="ff_services.html">Services</a></li><!-- link to the Services Section -->
+            <li><a href="ff_about.html">About Us</a></li><!-- Link to the About Us Section -->
+            <li><a href="ff_testimonials.html">Testimonials</a></li><!-- Link to the testimonials section -->
+            <li><a href="ff_contact.html">Contact Us</a></li><!-- Link to the contact us section -->
+            <li><a href="ff_schedule.html">Schedule</a></li><!-- Link to the Schedule Section -->
+            <li><a href="ff_shop.html">Shop</a></li><!-- Link to the Shop Section -->
+        </ul><!-- ending of unordered list -->
+    </nav><!-- closing navigation section -->
 
-    <section id="contact-us">
-        <h2>Contact Us</h2>
-        <div class="contact-container">
-            <div class="contact-map">
-                <h3>Our Location</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.123456789012!2d-81.0456789!3d29.2101234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e6b1234567890!2s1200%20W%20International%20Speedway%20Blvd%2C%20Daytona%20Beach%2C%20FL%2032114!5e0!3m2!1sen!2sus!4v1611819442824!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <div id="contactUs"><!-- Identifying the contactUs section -->
+        <h2>Contact Us</h2><!-- Heading for the Contact Us section -->
+        <div class="contactContainer"> <!-- Classifying the container for the contact information and map -->
+            <div class="contactMap"> <!-- Classifying the contactMap section -->
+                <h3>Our Location</h3> <!--  -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6965.500424471684!2d-81.04918997481217!3d29.201480108017687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e6d966fbdbbefd%3A0x53c7228ec40c7fcc!2sDaytona%20State%20College!5e0!3m2!1sen!2sus!4v1719681841333!5m2!1sen!2sus" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- This is the Embedded map that is provided on the google maps browser. By adjusting the width and height in the link, it will resize the map to fit proportionally in the container -->
             </div>
-            <div class="contact-info">
-                <h3>Contact Information</h3>
-                <p><strong>Phone Number:</strong> (386) 506-3000</p>
-                <p><strong>Email:</strong> info@fureverfluffy.com</p>
-                <p><strong>Address:</strong> 1200 W International Speedway Blvd, Daytona Beach, FL 32114</p>
-                <p><strong>Hours:</strong> Mon-Sun: 9AM - 5PM, Lunch 12:30PM-1PM</p>
+            <div class="contactInfo"> <!-- Classifying the contactInfo section -->
+                <h3>Contact Information</h3> <!-- Subheading for the contactInfo section -->
+                <p><strong>Phone Number:</strong> (386) 506-3000</p><!-- ContactInfo Phone Number -->
+                <p><strong>Email:</strong> info@fureverfluffy.com</p><!-- ContactInfo Email -->
+                <p><strong>Address:</strong> 1200 W International Speedway Blvd, Daytona Beach, FL 32114</p><!-- ContactInfo Address -->
+                <p><strong>Hours:</strong> Mon-Sun: 9AM - 5PM,</br> Lunch 12:30PM-1PM</p><!-- ContactInfo Hours -->
             </div>
         </div>
-        <div class="contact-form">
-            <h3>Contact Form</h3>
-            <form action="mailto:brooke_myers1659@daytonastate.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-                <input type="submit" value="Send">
+        <div class="contactForm"><!-- Classifying the contactForm Section -->
+            <h3>Contact Form</h3><!-- ContactForm subheading -->
+            <form action="mailto:brooke_myers1659@daytonastate.com" method="post" enctype="text/plain"> <!-- Form action to send the email to the specified address by using the mailto command and by using the push method-->
+                <label for="name">Name:</label><!-- Label for the Name section -->
+                <input name="name" id="name" type="text" placeholder="First and Last name" required="required"/><!-- Input field for the Name section -->
+                <label for="phone">Phone Number:</label><!-- Label for the Phone Number section -->
+                <input name="phone" id="phone" type="phone" placeholder="(000) 000-0000" required="required" /><!-- Input field for the Phone Number section -->
+                <label for="email">Email:</label><!-- Label for the Email section -->
+                <input name="email" id="email" type="email" placeholder="Email Address"  required="required"/><!-- Input field for the Email section -->
+                <label for="message">Message:</label><!-- Label for the Message section -->
+                <textarea name="message" id="message" rows="4" placeholder="Enter your message here... " required="required"></textarea><!-- Input field for the Message section -->
+                <input value="Reset Form" type="reset"><!-- This is for the reset button -->
+                <input value="Send Message" type="submit"><!-- this is for the submit button -->
+                
             </form>
         </div>
-    </section>
+    </div>
 
-    <footer>
-        <p>© 2024 Furever Fluffy Dog Grooming  ♦  1200 W International Speedway Blvd, Daytona Beach, FL 32114  ♦  (386)506-3000  </p>
-    </footer>
-</body>
+    <footer><!--  Beginning of footer -->
+        <p>© 2024 Furever Fluffy Dog Grooming  
+        ♦  1200 W International Speedway Blvd, 
+        Daytona Beach, FL 32114  ♦  (386)506-3000  </p><!-- Footer content assigned to every page -->
+    </footer><!-- end of footer -->
+</body><!-- end of body -->
 </html>
