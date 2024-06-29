@@ -14,50 +14,51 @@
  -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furever Fluffy Dog Grooming</title>
-    <link rel="stylesheet" href="CSS/ff_styles.css">
-    <link rel="stylesheet" href="CSS/ff_home.css">
-    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/>
-    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/>
+    <meta charset="UTF-8"><!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Makes sure there is proper rendering and touch zooming on mobile devices -->
+    <title>Furever Fluffy Dog Grooming</title><!-- The title of the website -->
+    <link rel="stylesheet" href="CSS/ff_styles.css"><!-- Base styling for all pages -->
+    <link rel="stylesheet" href="CSS/ff_home.css"><!-- Styling Specifically for the index page -->
+    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/> <!-- Layout for Mobile Devices and Tablet/Desktop Devices -->
+    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/> <!-- Layout for Printing -->
     
 </head>
 <body>
-	 	<header>
-		<a href="index.html">
-       		<img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;">
-       
-       <h1>Furever Fluffy Dog Grooming</h1>
-		</a>
-   		</header>
+	 	<header><!-- opening of the header section -->
+			<a href="index.html"><!-- link for logo, clicking will redirect you to the index -->
+       		<img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;"><!-- Logo source -->
+       		</a><!-- closing the link section -->
+   
+   		</header><!-- closing of the header -->
 
-<nav class="horizontal">
-      <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ff_services.html">Services</a></li>
-            <li><a href="ff_about.html">About Us</a></li>
-            <li><a href="ff_testimonials.html">Testimonials</a></li>
-            <li><a href="ff_contact.html">Contact Us</a></li>
-            <li><a href="ff_schedule.html">Schedule</a></li>
-            <li><a href="ff_shop.html">Shop</a></li>
-        </ul>
-   </nav>
+<nav class="horizontal"> <!-- Navigation Bar to link to other sections in the webpage -->
+      <ul><!-- beginning of unordered list -->
+            <li><a href="index.html">Home</a></li> <!-- link to the index -->
+            <li><a href="ff_services.html">Services</a></li><!-- link to the Services Section -->
+            <li><a href="ff_about.html">About Us</a></li><!-- Link to the About Us Section -->
+            <li><a href="ff_testimonials.html">Testimonials</a></li><!-- Link to the testimonials section -->
+            <li><a href="ff_contact.html">Contact Us</a></li><!-- Link to the contact us section -->
+            <li><a href="ff_schedule.html">Schedule</a></li> <!-- Link to the Schedule Section -->
+            <li><a href="ff_shop.html">Shop</a></li><!-- Link to the Shop Section -->
+        </ul><!-- ending of unordered list -->
+   </nav><!-- closing navigation section -->
    
     
-   <article>
-    <section id="portfolio">
-        <img src="Images/ff_dog1.jpg" alt="Groomed Dog 1" id="dog1">
-        <section id="navigation">
-        	<a href="ff_dog7.html" id="prev">←</a>
-            <a href="ff_dog2.html" id="next">→</a>
-    	</section>
+   <article><!-- beginning of article -->
+    <div id="portfolio"> <!-- Identifies portfolio in this section -->
+        <img src="Images/ff_dog1.jpg" alt="Groomed Dog 1" id="dog1"> <!-- Source for the image -->
+        <div id="navigation"> <!-- Identifies the navigation to scroll through the images -->
+        	<a href="ff_dog7.html" id="prev">←</a><!-- Link to go to the previous image -->
+            <a href="ff_dog2.html" id="next">→</a><!-- Link to go to the next image -->
+    </div>
 
-        <p id="imageDescription">This adorably tiny pup had an oatmeal spa package with a 1 inch guard comb all over followed by hand scissoring and a teddy bear face!</p>
+        <p id="imageDescription">This adorably tiny pup had an oatmeal spa package with a 1 inch guard comb all over
+         followed by hand scissoring and a teddy bear face!</p> <!--  Identifies and assigns a description -->
         
-    </section>
-    <aside id="companyOverview">
-        <h2>Hello!</h2>
+    </div>
+    
+    <aside id="companyOverview"> <!-- Identifies the companyOverview section inside the aside content -->
+        <h2>Hello!</h2><!-- Heading above the companyOverview -->
         <p><strong>Welcome</strong> to the <strong>F</strong>urever <strong>F</strong>luffy family, where we treat your furry friend like our own and tend to all
          necessary grooming needs. <strong>F</strong>urever <strong>F</strong>luffy is a luxurious dog grooming salon that is dedicated to providing
           exceptional grooming services. It is a certifiably safe, caring and stress-free area where your dog can 
@@ -65,21 +66,25 @@
           that accommodate all unique needs for any breed. The <strong>F</strong>urever <strong>F</strong>luffy team is devoted to make sure your fluffy
            friend is healthy and of course happy. All products that are used in the salon are only but the best of 
            quality, pet-safe products and professional grade grooming equipment. <strong>F</strong>urever <strong>F</strong>luffy's objective is to 
-           ensure your fur baby has a positive experience, ensuring they leave the salon with their tail wagging.</p>
+           ensure your fur baby has a positive experience, ensuring they leave the salon with their tail wagging. </p><!-- CompanyOverview text content -->
     </aside>
-</article>
+    
+</article><!-- end of article -->
 
-	<section id="video-section">
-        <h2>Grooming Tips!</h2>
-        <video controls>
-            <source src="Videos/ff_video.mp4" type="video/mp4">
+	<div id="videoSection"><!-- Identifies the video in this section  -->
+        <h2>Grooming Tips!</h2><!-- Heading above the video -->
+        
+        <video controls> <!-- This allows the viewer to control the video on the page -->
+            <source src="Videos/ff_video.mp4" type="video/mp4"> <!-- source for the video location -->
         </video>
-    </section>
+    </div><!-- end of this section -->
    
  
    
     <footer>
-        <p>© 2024 Furever Fluffy Dog Grooming  ♦  1200 W International Speedway Blvd, Daytona Beach, FL 32114  ♦  (386)506-3000  </p>
+        <p>© 2024 Furever Fluffy Dog Grooming  
+        ♦  1200 W International Speedway Blvd, 
+        Daytona Beach, FL 32114  ♦  (386)506-3000  </p><!-- footer assigned to every page -->
     </footer>
-</body>
+</body><!-- end of body -->
 </html>
