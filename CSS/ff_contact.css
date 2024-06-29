@@ -1,90 +1,118 @@
 @charset "utf-8";
 
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy Contact
+	Filename: ff_contact.css 
+	Author:	Brooke Myers
+	Date:
 
-#contact-us {
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
-    margin: 0 auto;
-    max-width: 1000px;
-}
+*/
 
-#contact-us h2 {
-    text-align: center;
-    font-family: 'Comic Sans MS';
-    color: rgb(46, 1, 126);
-}
 
-.contact-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
 
-.contact-info {
-    width: 40%; 
-    padding: 20px; 
-    border: 1px solid black;
-    background-color: rgba(255, 105, 180, 0.5);
-    margin-left: 20px; 
-}
 
-.contact-map {
-    width: 45%; 
-    padding: 10px;
-    border: 1px solid #000;
-    background-color: rgba(128, 0, 128, 0.5);
-    margin-left: 20px;
-}
+	#contactUs {
+    padding: 20px; /* Adds 20 pixels of space inside the "#contactUs" section */
+    background-color: white; /*Sets the background color of the contactUs to white */
+	}
 
-.contact-info h3, .contact-map h3 {
-    text-align: center;
-    font-family: 'Comic Sans MS';
-    color: rgb(46, 1, 126);
-}
+	#contactUs h2 {
+	margin: 0; /* Removes extra space around the h2 heading */
+	margin-bottom: 40px; /* Adds 40 pixels of space below the h2 heading */
+    text-align: center; /* Center the h2 heading in the middle of the page */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the h2 heading to comic sans ms */
+    font-size: 34px; /*Sets the font size to 34 pixels */
+    color: rgb(46, 1, 126); /* Sets the font color to the set rgb values */
+	}
 
-.contact-form {
-    padding: 10px;
-    border: 1px solid black;
-    background-color: white;
-}
+	.contactContainer {
+    display: flex; /* This tells the browser to use a flexbox type layout for the .contactContainer section */
+    justify-content: space-between; /* This centers everything inside of the .contactContainer flexbox horizontally */
+	margin-bottom: 20px; /* Adds space below this container */
+	}
 
-.contact-form h3 {
-    text-align: center;
-    font-family: 'Comic Sans MS';
-    color: rgb(46, 1, 126);
-}
+	.contactInfo {
+    width: 40%; /* Sets the width of the contactInfo box to 40% */
+    padding: 20px; /* Adds 20 pixels of space inside the .contactInfo section */
+    border: 1px solid black; /* Adds a 1 pixel solid black border around the container */
+    background-color: rgba(255, 105, 180, 0.5); /*Sets the background color of the container to the set rgba values */
+    margin-left: 20px;  /*Adds space to the left of the container */
+	}
 
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-}
+	.contactMap {
+    width: 60%;  /*Sets the width of the .contactMap container to 45% */
+    padding: 10px;/* Adds 10 pixels of space inside the .contactMap section */
+    border: 1px solid black;/* Adds a 1 pixel solid black border around the container */
+    background-color: rgba(128, 0, 128, 0.5);/*Sets the background color of the container to the set rgba values */
+    margin-left: 20px; /*Adds 20 pixels of space to the left of the container */
+	}
+	
+	.contactInfo p {
+	font-size: 22px; /*Sets the font size of the paragraphs inside the contactInfo to 22 pixels */
+	}
 
-.contact-form label {
-    margin: 10px 0 5px;
-    font-family: 'Comic Sans MS';
-}
+	.contactInfo h3, .contactMap h3 {
+	font-size: 30px;
+    text-align: center; /*Centers the headings for the contactInfo and contactMap */
+    font-family: 'Comic Sans MS'; /*Sets the font style of the headings to comic sans ms */
+    color: rgb(46, 1, 126); /*Sets the font color of the headings to the set rgb values */
+	}
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 5px;
-    font-family: 'Comic Sans MS';
-}
+	.contactForm {
+    padding: 10px; /* Adds 10 pixels of space inside the .contactForm section */
+    margin-top: 80px;/* Adds 80 pixels of space above the contact form section */
+    border: 1px solid black; /* Adds a 1 pixel solid black border around the contact form section*/
+    background-color: white; /* Sets the background color of the contact form to white */
+	}
 
-.contact-form input[type="submit"] {
-    margin-top: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(255, 105, 180);
-    color: #fff;
-    font-family: 'Comic Sans MS';
-    cursor: pointer;
-}
+	.contactForm h3 {
+    text-align: center; /* Centers the contact form h3 heading */
+    font-size: 30px; /* Sets the font size of the heading to 30 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the contact form heading to comic sans ms */
+    color: rgb(46, 1, 126); /* Sets the font color of the heading to the set rgb values*/
+	}
 
-.contact-form input[type="submit"]:hover {
-    background-color: rgb(46, 1, 126);
-}
+	.contactForm form {
+    display: flex;/* This tells the browser to use a flexbox type layout for the .contactForm section */
+    flex-direction: column; /* Arranges the form as a column layout */
+	}
+
+	.contactForm label {
+    margin: 10px 0 5px; /* This sets the top of the margin to 10 pixels, bottom margin to 0 and the left/right margin to 5 pixels */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the labels in the contactForm to comic sans ms */
+    font-size: 22px; /* Sets the font size of the labels to 22 pixels */
+	}
+
+	.contactForm input[type="text"],
+	.contactForm input[type="email"],
+	.contactForm input[type="phone"],
+	.contactForm textarea {
+    padding: 10px; /* Adds 10 pixels of space inside the input/textarea fields */
+    border: 1px solid black; /* Adds a 1 pixel solid black border around each field */
+    border-radius: 5px; /* Makes the corners slightly rounded */
+    font-family: 'Comic Sans MS'; /* Makes the input data the font style comic sans ms, such as the placeholder*/
+	}
+
+	.contactForm input[type="reset"],
+	.contactForm input[type="submit"]
+	 {
+    margin-top: 10px; /*Adds space above the buttons */
+    padding: 10px;/* Adds 10 pixels of space inside the buttons */
+    border: none; /* Removes the border around the buttons */
+    border-radius: 5px; /* Makes the corners of each button slightly rounded */
+    background-color: rgb(255, 105, 180); /*Sets the background color of the buttons the set rgb values */
+    color: white; /*Sets the font color of the button text to white */
+    font-family: 'Comic Sans MS'; /*Sets the font style of the button text to comic sans ms */
+    cursor: pointer; /* Changes the cursors appearance when hovering over the button to the pointer style */
+	}
+
+	.contactForm input[type="reset"]:hover,
+	.contactForm input[type="submit"]:hover {
+    background-color: rgb(46, 1, 126); /*The background color will change to the set rgb values */
+	}
