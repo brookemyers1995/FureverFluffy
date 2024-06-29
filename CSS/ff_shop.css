@@ -1,64 +1,81 @@
 @charset "utf-8";
 
-#shop {
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 16px 32px rgba(128, 0, 128, 0.5);
-    margin: 0 auto;
-    max-width: 1000px;
-    
-}
+/*
+	Final Capstone Project
+	CTS 1851
+	Internet Web Foundations (HTML_51FZ_SU24_ON)
+	Professor Anindya Paul
+	
+	
+	Furever Fluffy Shop
+	Filename: ff_shop.css 
+	Author:	Brooke Myers
+	Date:
 
-#shop h2 {
-    text-align: center;
-    font-family: 'Comic Sans MS';
-    font-size: 32px;
-    color: rgb(46, 1, 126);
-}
+*/
 
-.shop-info {
-    text-align: center;
-    margin-bottom: 20px;
-    font-family: 'Comic Sans MS'; 
-}
 
-.shop-items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between
-}
 
-.shop-items .item {
-    width: 30%;
-    margin-bottom: 20px;
-    text-align: center;
-    font-family: 'Comic Sans MS';
-    color: rgb(46, 1, 126);
-}
+	#shop {
+    padding: 20px; /* Adds 20 pixels of space inside the #shop section */
+    background-color: white; /* Sets the background color of the #shop section to white */
+	}
 
-.shop-items .item h3 {
-    font-size: 1.2em;
-    margin-bottom: 10px;
-}
+	#shop h2 {
+    text-align: center; /* Centers the h2 header to the middle of the page */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the h2 header to comic sans ms */
+    font-size: 34px; /* Sets the font size of the h2 header to 34 pixels */
+    color: rgb(46, 1, 126); /* Sets the font color of the h2 header to the set rgb values */
+    margin: 0; /* This removes the original margin and the extra space around the h2 heading */
+	}
 
-.shop-items .item img {
-    width: 100%;
-    height: auto;
-    border: 1px solid black;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
+	.shopInfo {
+    text-align: center; /* Centers the text inside of the shopInfo box */
+    margin-top: 20px; /* Adds space to the top of the shopInfo box */
+    margin-bottom: 60px; /* Adds space below the shopInfo box */
+    font-family: 'Comic Sans MS'; /* Sets the font style of the text inside of the shopInfo box to comic sans ms */
+    border: 1px solid black; /* Sets the font color of the text inside the shopInfo box to black */
+    border-radius: 15px; /* Makes the corners of the shopInfo box slightly rounded */
+	}
 
-.shop-items .item p {
-    font-size: 1em;
-    margin: 0;
-}
+	.shopItems {
+    display: flex; /* Tells the browser to use a flexbox layout */
+    flex-wrap: wrap; /* This will make the items display wrap onto the next line so they arent bunched up together */
+    justify-content: space-between; /* This adds space between each item */
+	}
 
-.shop-items .item a {
-    color: rgb(46, 1, 126);
-    text-decoration: none;
-}
+	.shopItems .item {
+    width: 30%; /* Sets the width of each shop item */
+    margin-bottom: 20px; /*Adds space below each shop item */
+    text-align: center; /* Centers each item, allowing the heading of each item to be centered perfectly above each image*/
+    font-family: 'Comic Sans MS'; /* Sets the font style to comic sans ms */
+    color: rgb(46, 1, 126); /* Sets the font color to the set rgb values */
+	}
 
-.shop-items .item a:hover {
-    text-decoration: underline;
-}
+	.shopItems .item h3 {
+    font-size: 20px; /* Sets the font size of the h3 headers to 20 pixels */
+    margin-bottom: 10px; /* Adds space below the headers */
+	}
+
+	.shopItems .item img {
+    width: 100%; /* Sets the width to 100% which will fill up the container */
+    height: auto; /* Set to auto to maintain the height size of the image */
+    border: 2px solid black; /* Adds a 2 pixel solid black border around each image for better appearance */
+    object-fit: cover; /* This will ensure that the image will cover its entire container */
+    margin-bottom: 10px; /* Adds 10 pixels of space below each image */
+    border-radius: 15px; /* Makes the corners of each images slightly rounded */
+	}
+
+	.shopItems .item p {
+    font-size: 16px; /* Sets the font size of the image descriptions to 16 pixels */
+    margin: 0; /* Removes the extra space around the image description */
+	}
+
+	.shopItems .item a {
+    color: rgb(46, 1, 126); /* Sets the font color of the Amazon Link to the set rgb values */
+    text-decoration: none; /* Removes any text decorations such as underlining */
+	}
+
+	.shopItems .item a:hover {
+    text-decoration: underline; /* When hovering over the amazon link, the link will be underlined */
+	}
