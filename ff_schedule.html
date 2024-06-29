@@ -14,95 +14,99 @@
  -->
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furever Fluffy Dog Grooming - Schedule</title>
-    <link rel="stylesheet" href="CSS/ff_styles.css">
-    <link rel="stylesheet" href="CSS/ff_schedule.css">
-    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/>
-    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/>
+    <meta charset="UTF-8"><!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Makes sure there is proper rendering and touch zooming on mobile devices -->
+    <title>Furever Fluffy Dog Grooming - Schedule</title><!-- The title of the website -->
+    <link rel="stylesheet" href="CSS/ff_styles.css"><!-- Base styling for all pages -->
+    <link rel="stylesheet" href="CSS/ff_schedule.css"><!-- Styling Specifically for the Schedule page -->
+    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/><!-- Layout for Mobile Devices and Tablet/Desktop Devices -->
+    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/> <!-- Layout for Printing -->
 </head>
 <body>
-    <header>
-	    <a href="index.html">
-        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;">
-        <h1>Furever Fluffy Dog Grooming</h1>
-	    </a>
-    </header>
+    <header><!-- opening of the header section -->
+    	<a href="index.html"><!-- link for logo, clicking will redirect you to the index -->
+        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;"><!-- Logo source -->
+        </a><!-- closing the link section --> 
+    </header><!-- closing of the header -->
 
-    <nav class="horizontal">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="ff_services.html">Services</a></li>
-            <li><a href="ff_about.html">About Us</a></li>
-            <li><a href="ff_testimonials.html">Testimonials</a></li>
-            <li><a href="ff_contact.html">Contact Us</a></li>
-            <li><a href="ff_schedule.html">Schedule</a></li> 
-            <li><a href="ff_shop.html">Shop</a></li>
-        </ul>
-    </nav>
+    <nav class="horizontal"><!-- Navigation Bar to link to other sections in the webpage -->
+        <ul><!-- beginning of unordered list -->
+            <li><a href="index.html">Home</a></li><!-- link to the index -->
+            <li><a href="ff_services.html">Services</a></li><!-- link to the Services Section -->
+            <li><a href="ff_about.html">About Us</a></li><!-- Link to the About Us Section -->
+            <li><a href="ff_testimonials.html">Testimonials</a></li><!-- Link to the testimonials section -->
+            <li><a href="ff_contact.html">Contact Us</a></li><!-- Link to the contact us section -->
+            <li><a href="ff_schedule.html">Schedule</a></li> <!-- Link to the Schedule Section -->
+            <li><a href="ff_shop.html">Shop</a></li><!-- Link to the Shop Section -->
+        </ul><!-- ending of unordered list -->
+    </nav><!-- closing navigation section -->
 
-    <section id="schedule">
-        <h2>Schedule</h2>
-        <div class="info-box">
-            <p>Please note that the groomers have a very busy schedule and time slots fill up fast! The salon is typically booked out a few weeks in advance. Also, please be advised that all groomers on staff have a scheduled lunch break from 12:30PM - 1PM. Thank you for your understanding and we look forward to meeting you and your furry friend(s)!</p>
+    <div id="schedule"> <!-- Beginning of the schedule section -->
+        <h2>Schedule</h2><!--  Heading for the Schedule section -->
+        <div class="infoBox"> <!--  Establishes the container that the schedule information will be in -->
+            <p>Please note that the groomers have a very busy schedule and time slots fill up fast! The salon is typically booked out a few weeks in advance. 
+            Also, please be advised that all groomers on staff have a scheduled lunch break 
+            from 12:30PM - 1PM. Thank you for your understanding and we look forward to 
+            meeting you and your furry friend(s)!</p> <!-- The paragraph that will be displayed below the h2 heading and above the table -->
+        </div><!-- End of the info-box -->
+        <div class="scheduleTable"> <!--  Establishes the container that the Table information will be in -->
+            <table> <!--  Beginning of the table -->
+                <tr> <!-- Beginning of the header that contains the groomer names and "groomer's schedule -->
+                    <th>Groomer's Schedule</th> <!-- First part of the header -->
+                    <th>Brooke</th><!-- Second part of the header -->
+                    <th>Jessica</th><!-- Third part of the header -->
+                    <th>Maya</th><!-- Fourth part of the header -->
+                </tr><!-- End of the header section -->
+                <tr><!-- Beginning of the table row for "Monday" -->
+                    <td>Monday</td><!-- Specifies which day of the week this row is -->
+                    <td>OFF</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Tuesday" -->
+                    <td>Tuesday</td><!-- Specifies which day of the week this row is -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>OFF</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Wednesday" -->
+                    <td>Wednesday</td><!-- Specifies which day of the week this row is -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>OFF</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Thursday" -->
+                    <td>Thursday</td><!-- Specifies which day of the week this row is -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>OFF</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Friday" -->
+                    <td>Friday</td><!-- Specifies which day of the week this row is -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>OFF</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Saturday" -->
+                    <td>Saturday</td><!-- Specifies which day of the week this row is -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Sunday" -->
+                    <td>Sunday</td><!-- Specifies which day of the week this row is -->
+                    <td>OFF</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Jessica" schedule is for this day of the week -->
+                    <td>9AM - 5PM</td><!-- Identifies what groomer "Maya" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+            </table><!--  End of the entire table -->
         </div>
-        <div class="schedule-table">
-            <table>
-                <tr>
-                    <th>Groomer's Schedule</th>
-                    <th>Brooke</th>
-                    <th>Jessica</th>
-                    <th>Maya</th>
-                </tr>
-                <tr>
-                    <td>Monday</td>
-                    <td>OFF</td>
-                    <td>9AM - 5PM</td>
-                    <td>9AM - 5PM</td>
-                </tr>
-                <tr>
-                    <td>Tuesday</td>
-                    <td>9AM - 5PM</td>
-                    <td>OFF</td>
-                    <td>9AM - 5PM</td>
-                </tr>
-                <tr>
-                    <td>Wednesday</td>
-                    <td>9AM - 5PM</td>
-                    <td>OFF</td>
-                    <td>9AM - 5PM</td>
-                </tr>
-                <tr>
-                    <td>Thursday</td>
-                    <td>9AM - 5PM</td>
-                    <td>9AM - 5PM</td>
-                    <td>OFF</td>
-                </tr>
-                <tr>
-                    <td>Friday</td>
-                    <td>9AM - 5PM</td>
-                    <td>9AM - 5PM</td>
-                    <td>OFF</td>
-                </tr>
-                <tr>
-                    <td>Saturday</td>
-                    <td>9AM - 5PM</td>
-                    <td>9AM - 5PM</td>
-                    <td>9AM - 5PM</td>
-                </tr>
-                <tr>
-                    <td>Sunday</td>
-                    <td>OFF</td>
-                    <td>9AM - 5PM</td>
-                    <td>9AM - 5PM</td>
-                </tr>
-            </table>
-        </div>
-    </section>
+    </div> <!-- End of the schedule section -->
 
-    <footer>
-        <p>© 2024 Furever Fluffy Dog Grooming  ♦  1200 W International Speedway Blvd, Daytona Beach, FL 32114  ♦  (386)506-3000  </p>
-    </footer>
-</body>
+    <footer><!-- Beginning of the footer section -->
+        <p>© 2024 Furever Fluffy Dog Grooming  
+        ♦  1200 W International Speedway Blvd, 
+        Daytona Beach, FL 32114  ♦  (386)506-3000  </p> <!-- The information displayed in the footer -->
+    </footer> <!-- End of the footer section -->
+</body> 
 </html>
