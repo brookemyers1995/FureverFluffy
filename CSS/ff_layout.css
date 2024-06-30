@@ -413,6 +413,10 @@
         margin: 10px 1%; /* Margin on top, bottom, and sides */
         box-sizing: border-box; /* Include padding in width */
     }
+
+	 .testimonials h2 {
+    display: none;
+    }
 }
 
 	
@@ -426,9 +430,7 @@
     font-size: 1.2em; 
     }
     
-    .testimonials h2 {
-    display: none;
-    }
+   
     
    
 
