@@ -149,7 +149,6 @@
     }
 
     nav.horizontal li {
-	font-family: 'Comic Sans MS';
     font-size: 1em; 
     padding: 8px; 
     line-height: 0.5;
@@ -230,6 +229,7 @@
 		display: none;
 	}
 	
+
 	.contactContainer {
         flex-direction: column;
         align-items: center;
@@ -267,9 +267,12 @@
         box-sizing: border-box;
     }
 
-    #schedule h2 {
+    
+
+	#schedule h2 {
 	display: none;
     }
+
 
 /* Footer Styles for Mobile Devices */
 
@@ -317,6 +320,28 @@
 	display: none;
 	}
 	
+	 nav.horizontal {
+	box-shadow: none;
+	}
+
+    nav.horizontal ul {
+    flex-direction: column;
+    padding: 0;     
+    }
+
+    nav.horizontal li {
+    font-size: 26px; 
+    padding: 8px; 
+    line-height: 1.0;
+    border-bottom: 1px solid purple;
+    }
+
+    nav.horizontal li a {
+    padding: 8px;
+    }
+    
+    /* Tablet Layout for Services Section */
+	
 	
 	 #services {
      display: flex;
@@ -340,7 +365,17 @@
     box-sizing: border-box; 
 	}
 	
-	/*Contact Us Section */
+	
+	/* Tablet layout for Testimonials section */
+
+
+	.testimonials h2 {
+    display: none;
+    }
+	
+	
+	
+	/*Tablet Layout Contact Us Section */
 	
 	.contactContainer {
         display: flex; /* Use flexbox layout */
@@ -413,10 +448,69 @@
         margin: 10px 1%; /* Margin on top, bottom, and sides */
         box-sizing: border-box; /* Include padding in width */
     }
+    
+   
+    
+    
+    /* Tablet layout for Shop Section */
+    
+    
 
-	 .testimonials h2 {
-    display: none;
+	.shopInfo {
+        text-align: center; /* Centers the text inside of the shopInfo box */
+        margin-top: 20px; /* Adds space to the top of the shopInfo box */
+        margin-bottom: 60px; /* Adds space below the shopInfo box */
+        font-family: 'Comic Sans MS'; /* Sets the font style of the text inside of the shopInfo box to comic sans ms */
+        border: 1px solid black; /* Sets the font color of the text inside the shopInfo box to black */
+        border-radius: 15px; /* Makes the corners of the shopInfo box slightly rounded */
     }
+
+    .shopItems {
+        display: flex; /* Tells the browser to use a flexbox layout */
+        flex-wrap: wrap; /* This will make the items display wrap onto the next line so they aren't bunched up together */
+        justify-content: space-between; /* This adds space between each item */
+    }
+
+    .shopItems .item {
+        width: 48%; /* Sets the width of each shop item to 48% */
+        margin-bottom: 20px; /* Adds space below each shop item */
+        text-align: center; /* Centers each item, allowing the heading of each item to be centered perfectly above each image */
+        font-family: 'Comic Sans MS'; /* Sets the font style to comic sans ms */
+        color: rgb(46, 1, 126); /* Sets the font color to the set rgb values */
+    }
+
+    .shopItems .item h3 {
+        font-size: 20px; /* Sets the font size of the h3 headers to 20 pixels */
+        margin-bottom: 10px; /* Adds space below the headers */
+    }
+
+    .shopItems .item img {
+        width: 100%; /* Sets the width to 100% which will fill up the container */
+        height: auto; /* Set to auto to maintain the height size of the image */
+        border: 2px solid black; /* Adds a 2 pixel solid black border around each image for better appearance */
+        object-fit: cover; /* This will ensure that the image will cover its entire container */
+        margin-bottom: 10px; /* Adds 10 pixels of space below each image */
+        border-radius: 15px; /* Makes the corners of each image slightly rounded */
+    }
+
+    .shopItems .item p {
+        font-size: 16px; /* Sets the font size of the image descriptions to 16 pixels */
+        margin: 0; /* Removes the extra space around the image description */
+    }
+
+    .shopItems .item a {
+        color: rgb(46, 1, 126); /* Sets the font color of the Amazon Link to the set rgb values */
+        text-decoration: none; /* Removes any text decorations such as underlining */
+    }
+
+    .shopItems .item a:hover {
+        text-decoration: underline; /* When hovering over the amazon link, the link will be underlined */
+    }
+    
+
+    
+     
+    
 }
 
 	
@@ -430,7 +524,5 @@
     font-size: 1.2em; 
     }
     
-   
     
    
-
