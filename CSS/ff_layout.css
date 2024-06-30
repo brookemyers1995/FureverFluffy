@@ -149,6 +149,7 @@
     }
 
     nav.horizontal li {
+	font-family: 'Comic Sans MS';
     font-size: 1em; 
     padding: 8px; 
     line-height: 0.5;
