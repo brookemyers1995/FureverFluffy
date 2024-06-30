@@ -226,6 +226,10 @@
     
 /* Contact Us Layout for Mobile Devices */
 
+	#contactUs h2 {
+		display: none;
+	}
+	
 	.contactContainer {
         flex-direction: column;
         align-items: center;
