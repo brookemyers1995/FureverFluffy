@@ -31,75 +31,7 @@
     }
     
     
-/* Services Section */
-    
-    #services h1 {
-    display: none;
-    }
-    
-    
-    #HaircutBath {
-    page-break-after: always;
-    }
-
-    #WalkIn {
-    page-break-before: always;
-    }
-
-    #services {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    top: 80px;
-    }
-
-    .serviceContainer {
-    display: block;
-    width: 100%;
-    margin-top: 20px; 
-    }
-
-    .service {
-    width: 80%; 
-    top: 200px;
-    margin: 30px auto;
-    padding: 20px;
-    border: 2px solid black;
-    background-color: white;
-    page-break-before: always; 
-    }
-    
-    .serviceContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    }
-    
-/* About Us Section */   
-
-	.aboutSection {
-	margin-top: 100px;
-	font-size: 14px;
-    page-break-after: always;
-    }
-
-    .groomerPhotos {
-    display: block;
-    margin-top: 80px;
-    page-break-before: always;
-    }
-
-    .groomerPhoto {
-    width: 100%; 
-    height: auto;
-    margin-top: 80px;
-    margin-bottom: 50px; 
-    }
-
- 
-/* Index/Homepage Section */    
+    /* Index/Homepage Section */    
 
     #companyOverview {
     width: 100%;
@@ -141,6 +73,88 @@
     clear: both;
     }
     
+    #videoSection {
+    	display: none;
+    }
+    
+/* Services Section */
+    
+    #services h1 {
+    display: none;
+    }
+    
+    
+    #HaircutBath {
+    page-break-after: always;
+    }
+
+    #WalkIn {
+    page-break-before: always;
+    }
+    
+    #WalkIn h2 {
+    display: none; 
+    }
+    
+    #HaircutBath h2{
+	display: none;
+	}
+	
+	
+    #services {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 80px;
+    }
+
+    .serviceContainer {
+    display: block;
+    width: 100%;
+    margin-top: 20px; 
+    }
+
+    .service {
+    width: 80%; 
+    top: 150px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: white;
+    page-break-before: always; 
+    }
+    
+    .serviceContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    }
+    
+/* About Us Section */   
+
+	.aboutSection {
+	margin-top: 100px;
+	font-size: 14px;
+    page-break-after: always;
+    }
+
+    .groomerPhotos {
+    display: block;
+    margin-top: 80px;
+    page-break-before: always;
+    }
+
+    .groomerPhoto {
+    width: 100%; 
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 50px; 
+    }
+
+ 
+
     
 /* Testimonials Section */
 
@@ -190,7 +204,43 @@
     flex: 1;
     }
 	
-	
+	.horizontalLinks {
+	display: none;
+	}
 
-  
+	/*Contact Us Section */
+	
+	.contactMap, .contactForm, #contactUs h2  {
+    display: none;
+	}
+
+	.contactInfo {
+    width: 100%;
+    margin: 0 auto; /* Center the contact info box */
+    padding: 20px;
+    border: 1px solid black;
+    background-color: rgba(255, 105, 180, 0.5);
+	}
+	
+	
+	/*Schedule Section */
+	
+	#schedule h2 {
+	display: none;
+	}
+	
+	/* Shop Section */
+	
+	#shop h2, .item p a {
+    display: none;
+	}
+	
+	.shopItems .item:nth-child(3n) {
+    page-break-after: always;
+	}
+	
+    .shopItems .item h3 {
+    margin-top: 80px;
+    margin-bottom: 20px; 
+	}
 }
