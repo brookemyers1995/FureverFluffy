@@ -44,6 +44,47 @@
     padding-top: 20px;  
     }
     
+    /* Navigation for Mobile Devices */
+
+	nav.horizontal {
+	box-shadow: none;
+	}
+
+    nav.horizontal ul {
+    flex-direction: column;
+    padding: 0;     
+    }
+
+    nav.horizontal li {
+    font-size: 1em; 
+    padding: 8px; 
+    line-height: 0.5;
+    border-bottom: 1px solid purple;
+    }
+
+    nav.horizontal li a {
+    padding: 8px;
+    }
+    
+    
+/* Footer Styles for Mobile Devices */
+
+    footer {
+    padding: 10px 0; 
+    font-size: 0.8em; 
+    }
+
+    
+    /* Home Overview Style for Mobile Devices */
+
+    #portfolio, #companyOverview {
+    width: 100%; 
+    float: none; 
+    padding: 10px; 
+    }
+    
+    
+    
    
     
 /* Services Media Devices Layout */
@@ -68,7 +109,8 @@
     min-width: 0; 
     max-width: none; 
     }
-
+	
+	
 
     .service h2, #WalkIn h2, #HaircutBath h2 {
     font-size: 20px; 
@@ -137,92 +179,6 @@
     }
 
 
-/* Navigation for Mobile Devices */
-
-	nav.horizontal {
-	box-shadow: none;
-	}
-
-    nav.horizontal ul {
-    flex-direction: column;
-    padding: 0;     
-    }
-
-    nav.horizontal li {
-    font-size: 1em; 
-    padding: 8px; 
-    line-height: 0.5;
-    border-bottom: 1px solid purple;
-    }
-
-    nav.horizontal li a {
-    padding: 8px;
-    }
-    
-    
-
-/* Home Overview Style for Mobile Devices */
-
-    #portfolio, #companyOverview {
-    width: 100%; 
-    float: none; 
-    padding: 10px; 
-    }
-    
-/* Home Portfolio Style for Mobile Devices */
-
-    #portfolio img {
-    width: 100%; 
-    height: auto;   
-    }
-
-    #navigation {
-    flex-direction: column;
-    margin-top: 5px; 
-    }
-
-    #prev, #next {
-    margin: 10px auto;
-    font-size: 1.2em;
-    }
-    
-/* Shop Style for Mobile Devices */
-	
-	#shop h2 {
-		display: none;
-	}
-
-	.shopItems {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .shopItems .item {
-        width: 100%;
-        margin-bottom: 80px;
-    }
-
-    .shopItems .item h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-
-    .shopItems .item img {
-        width: 100%;
-        border-radius: 10px;
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .shopItems .item p {
-        font-size: 1.2em;
-        margin-bottom: 10px;
-    }
-
-    .shopItems .item a {
-        font-size: 1.2em;
-    }
-    
 /* Contact Us Layout for Mobile Devices */
 
 	#contactUs h2 {
@@ -268,19 +224,53 @@
     }
 
     
+    /* Schedule Section */
 
 	#schedule h2 {
 	display: none;
     }
 
 
-/* Footer Styles for Mobile Devices */
 
-    footer {
-    padding: 10px 0; 
-    font-size: 0.8em; 
+/* Shop Style for Mobile Devices */
+	
+	#shop h2 {
+		display: none;
+	}
+
+	.shopItems {
+        flex-direction: column;
+        align-items: center;
     }
+
+    .shopItems .item {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .shopItems .item h3 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .shopItems .item img {
+        width: 100%;
+        border-radius: 10px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .shopItems .item p {
+        font-size: 1.2em;
+        margin-bottom: 10px;
+    }
+
+    .shopItems .item a {
+        font-size: 1.2em;
+    }
+    
 }
+
 
 /*Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
@@ -340,6 +330,9 @@
     padding: 8px;
     }
     
+    
+    
+    
     /* Tablet Layout for Services Section */
 	
 	
@@ -356,7 +349,7 @@
 
 	.service {
  	top: 30px;
-    width: 100%; 
+    width: 90%; 
     margin: 50px 0; 
     padding: 20px;
     border: 2px solid black;
@@ -364,6 +357,13 @@
     text-align: center;
     box-sizing: border-box; 
 	}
+	
+	
+	#WalkIn h2 {
+    right: 350px; /* This centers the #Walkin h2 heading because 
+    for some reason it was not aligned correctly no matter what i did */
+	}
+	
 	
 	
 	/* Tablet layout for Testimonials section */
@@ -376,6 +376,10 @@
 	
 	
 	/*Tablet Layout Contact Us Section */
+	
+	#contactUs h2 {
+	display: none;
+	}
 	
 	.contactContainer {
         display: flex; /* Use flexbox layout */
@@ -450,11 +454,17 @@
     }
     
    
+    /* Tablet Layout for Schedule Section */
     
+    #schedule h2 {
+    display: none;
+    }
     
     /* Tablet layout for Shop Section */
     
-    
+    #shop h2 {
+    display: none;
+    }
 
 	.shopInfo {
         text-align: center; /* Centers the text inside of the shopInfo box */
@@ -514,15 +524,7 @@
 }
 
 	
-    /* Additional tablet-specific styles */
-    nav {
-    padding: 0px; 
-    }
-
-    .content {
-    padding: 20px; 
-    font-size: 1.2em; 
-    }
+   
     
     
    
