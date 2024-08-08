@@ -64,6 +64,7 @@
     padding: 0; /* Sets the space inside of the horizontal navigation to 0 pixels */             
     margin: 0; /* Sets the space around the horizontal navigation to 0 pixels, essentially removing any extra space */                 
     list-style-type: none; /* This removes any list styles like bullet points from the horizontal navigation bar */
+justify-content: space-between; /* Distributes the links evenly across the navigation bar */
 	}
 
 	nav.horizontal li {
