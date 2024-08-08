@@ -32,6 +32,9 @@
 	}
 
 	.contactContainer {
+	display: -webkit-flex; /* WEBKIT EXTENSION FOR SAFARI */
+    display: -moz-box; /* MOZILLA EXTENSION FOR MOZILLA FIREFOX */
+    display: -ms-flexbox; /* INTERNET EXPLORER EXTENSION  */
     display: flex; /* This tells the browser to use a flexbox type layout for the .contactContainer section */
     justify-content: space-between; /* This centers everything inside of the .contactContainer flexbox horizontally */
 	margin-bottom: 20px; /* Adds space below this container */
@@ -51,6 +54,26 @@
     border: 1px solid black;/* Adds a 1 pixel solid black border around the container */
     background-color: rgba(128, 0, 128, 0.5);/*Sets the background color of the container to the set rgba values */
     margin-left: 20px; /*Adds 20 pixels of space to the left of the container */
+	}
+	
+	.get-directions {
+	
+    font-family: 'Comic Sans MS'; /* Change to your desired font */
+    font-size: 1.2em; /* Adjust font size */
+    color: white; /* Change text color */
+    background-color: rgb(46, 1, 126); /* Change background color */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it behave like a button */
+    
+	}
+
+	.get-directions:hover {
+    background-color: rgb(255, 105, 180); /* Change background color on hover */
 	}
 	
 	.contactInfo p {
@@ -79,6 +102,9 @@
 	}
 
 	.contactForm form {
+	-webkit-flex-direction: column; /* SAFARI EXTENSION */
+    -moz-box-direction: normal; /* EXTENSION FOR MOZILLA FIREFOX */
+    -ms-flex-direction: column; /* EXTENSION FOR INTERNET EXPLORER */
     display: flex;/* This tells the browser to use a flexbox type layout for the .contactForm section */
     flex-direction: column; /* Arranges the form as a column layout */
 	}
