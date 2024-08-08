@@ -21,213 +21,212 @@
 	
 	
     html, body {
-    background: none; 
-    width: 100%; 
-    max-width: 100%; 
-    overflow-x: hidden;
+    background: none; /* Removes the set  background for the webpage */
+    width: 100%; /* Sets the width to 100% */
+    max-width: 100%; /* Sets the max width to 100% to prevent overflow of the page */
+    overflow-x: hidden; /* This will hide the horizontal content */
     }
 
     header {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    height: auto; 
-    background-size: cover; 
-    background-position: center;
-    align-items: center;
+    display: flex; /* Tells the browser to use a flexbox layout */
+    flex-direction: column;/* Arranges the header as a column layout */
+    height: auto; /* Automatically sets the height to auto so it adjust correctly when needed */
+    background-size: cover; /* Mkaes the header cover the background */
+    align-items: center; /* Centers all the items within the header*/
     }
 
     header img {
-    width: 80%; 
-    max-height: 150px; 
-    object-fit: contain; 
-    padding-top: 20px;  
+    max-height: 150px; /* Ensure the height of the header image is set to 150 pixels */
+    object-fit: contain; /* Makes the header image contained in the set area */
+    padding-top: 20px;   /* Adds 20 pixels of space at the top of the header image*/ 
     }
     
     /* Navigation for Mobile Devices */
 
 	nav.horizontal {
-	box-shadow: none;
+	box-shadow: none; /* Removes the shadow on the navigation bar */
 	}
 
     nav.horizontal ul {
-    flex-direction: column;
-    padding: 0;     
+    flex-direction: column; /* Sets the layout of the navigation bar as a vertical column */
     }
 
     nav.horizontal li {
-    font-size: 1em; 
-    padding: 8px; 
-    line-height: 0.5;
-    border-bottom: 1px solid purple;
+    font-size: 1em; /* Sets the font size of the text inside of the navigation bar to 1em */
+    padding: 8px; /* Adds space inside of the navigation bar */
+    line-height: 0.5; /* sets the space between line of text */
+    border-bottom: 1px solid purple; /* adds a purple line below each navigation section */
     }
 
     nav.horizontal li a {
-    padding: 8px;
+    padding: 8px; /* Adds space inside each section of the navigation bar */
     }
     
     
 /* Footer Styles for Mobile Devices */
 
     footer {
-    padding: 10px 0; 
-    font-size: 0.8em; 
+    padding: 10px 0; /* Adds space to the top and bottom of the footer */
+    font-size: 0.8em; /* Sets the font size of the footer to 0.8em */
     }
 
     
     /* Home Overview Style for Mobile Devices */
 
     #portfolio, #companyOverview {
-    width: 100%; 
-    float: none; 
-    padding: 10px; 
+    width: 100%; /* sets the width to full view */
+    float: none; /* Sets the float to none */
+    padding: 10px; /* Adds space inside of the #portfolio and #companyOverview sections */
     }
     
+    #videoSection iframe {
+    width: 100%; /* Sets the width of the video in the mobile layout */
+    border: 1px solid black; /* Adds a 1 pixel solid black border to the video */
+    border-radius: 20px; /* Makes the borders slightly rounded */
+    margin-bottom: 20px; /*Adds 20 pixels of space under the video */
+	}
     
-    
-   
+
     
 /* Services Media Devices Layout */
 	
 	#services h1 {
-		display:none;
+		display:none; /* Makes it so the "services" heading doesnt appear for mobile view */
 	}
     
     #services {
-    flex-direction: column; 
-    margin-top: 20px; 
-    padding-bottom: 20px; 
-    max-width: 100%; 
+    flex-direction: column; /* Sets the layout of the section to columns */
+    margin-top: 20px; /* Adds space above the #services section */
+    padding-bottom: 20px; /*Adds space inside the bottom of the ##services section */
+    max-width: 100%; /*Ensure the #services section is maxed out at 100% width */
     }
 
     
     .service {
-    flex: none; 
-    width: 90%; 
-    margin: 10px auto; 
-    top: 0; 
-    min-width: 0; 
-    max-width: none; 
+    flex: none; /* This will disable the flex-grow/shrink ... */
+    width: 90%; /*Sets the width of this class to 90% */
+    margin: 10px auto; /* adds 10 pixels of space on the top and bottom and centers it horizontally*/
+    top: 0; /* This sets the position of the top of this class to zero since the class it technically relative in the desktop view*/
     }
 	
 	
 
     .service h2, #WalkIn h2, #HaircutBath h2 {
-    font-size: 20px; 
-    position: relative;
-    top: 0; 
-    right: 0; 
-    transform: none; 
-    margin-top: 10px; 
+    font-size: 20px; /* Sets the fontsize of the h2 heading's to 20 pixels */
+    position: relative; /* Sets the position to relative of its normal position */
+    top: 0;  /* This sets the position of the top of this class to zero since the 
+    class it technically relative in the desktop view.. this will position it vertically correct*/
+    right: 0; /* This sets the position of the top of this class to zero since the
+     class it technically absolute (for .services h2) in the desktop view.. this will position it horizontally correct*/
+    transform: none; /* Set the transform to none so it can disably any transformation of the headings */
+    margin-top: 10px; /*adds 10 pixels of space above the headings */
     }
     
  
 
-    /* Adjust subtitles */
+     /* Adjust subtitles */
     .subtitle {
-    top: 0; 
-    right: 0; 
-    transform: none; 
-    position: relative; 
-    font-size: 14px; 
+    top: 0; /* This sets the position of the top of this class to zero since the 
+    class it technically absolute in the desktop view.. this will position it vertically correct*/
+    right: 0; /* This sets the position of the top of this class to zero since the
+     class it technically absolute (for .services h2) in the desktop view.. this will position it horizontally correct*/
+    transform: none; /* Set the transform to none so it can disable any transformation of the headings */
+    position: relative; /* Sets the position to relative of its original position */
+    font-size: 14px; /* Sets the font size of the subtitle to 14 pixels */
     }
 
 /* About Us Section Layout for Mobile Devices */
 
 	.aboutSection h2 {
-	display: none;
+	display: none; /* Removes the "Abous Us" heading */
 	}
 
 	.groomerPhotos {
-    flex-direction: column; 
-    align-items: center; 
+    flex-direction: column; /* Sets the layout of the about section as a column */
+    align-items: center; /* centers the contents horizontally */
     }
     
     .groomerPhoto {
-    width: 100%; 
-    margin-bottom: 20px;
+    width: 100%; /* Makes the groomer photos take full width */
+    margin-bottom: 20px; /* Adds 20 pixels of space below the images */
     }
 
 /* Testimonials Section Layout for Mobile Devices */
 
 	.testimonials h2 {
-    display: none;
+    display: none; /* Makes it to where the testimonials heading doesnt appear for mobile */
     }
 	
 	.testimonials {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    display: flex; /* Tells the browser to use a flexbox layout */
+    flex-direction: column; /* arranges the contents in a column layout */
+    gap: 20px; /*Adds 20 pixels of space between each child element */
     }
 
     .testimonial {
-    width: 100%;
-    margin: 0 auto;
+    width: 100%; /* Sets the width to 100% */
+    margin: 0 auto; /* Set sthe margin to center horizontally */
     }
 
     /* Stack horizontal links vertically */
     .horizontalLinks {
-     flex-direction: column;
-     row-gap: 20px;
-     column-gap: 0;  
+     flex-direction: column; /* This will stack the links vertically */
+     row-gap: 20px; /* Adds a 20 pixel gap between each link */
     }
 
     .horizontalLinks a {
-    width: 100%;
-    text-align: center;
-    padding: 5px;    
+    width: 100%; /*Sets the width of the links to 100% */
+    text-align: center; /* Aligns the text in the center of the link area */
+    padding: 5px;    /* Adds 5 pixels of space inside the links */
     }
 
 
 /* Contact Us Layout for Mobile Devices */
 
 	#contactUs h2 {
-		display: none;
+	display: none; /* Removes the "contactUs" heading */
 	}
 	
 
 	.contactContainer {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        padding: 0 10px;
-        box-sizing: border-box;
-        
+    flex-direction: column;/* This will stack the links vertically */
+    align-items: center; /* centers the contents horizontally */
+    width: 100%; /* Sets the width of the class to 100% */
+    padding: 0 10px; /* Adds padding on the left and right of the class */
+    box-sizing: border-box; /* This will include the padding and border in the .contactContainer's width and height */   
     }
 
     .contactInfo, .contactMap, .contactForm {
-        width: 100%;
-        margin: 10px 0;
-        padding: 40px;
-        box-sizing: border-box;
-        border-radius: 10px;
+    width: 100%; /* Sets the width of their container to 100% */
+    margin: 10px 0; /* Adds 10 pixels of space to the top and bottom */
+    padding: 40px; /* Adds 40 pixels of space inside of these elements */
+    box-sizing: border-box; /* This will include the padding and border in the element's width and height */   
+    border-radius: 10px; /* Makes the corners of the boxes slightly rounded */
     }
     
     
 
     .contactMap iframe {
-        width: 105%;
-        height: auto;
-        min-height: 400px; 
-        border: 0;
+        width: 105%; /* Sets the width of the map container to 100% */
+        height: 400px; /* Sets the height of the map and its container to 400 pixels */
     }
 
     .contactForm form {
-        width: 100%;
+        width: 100%; /* Sets the width of the contact form to 100% */
     }
 
     .contactForm input[type="text"],
     .contactForm input[type="email"],
     .contactForm textarea {
-        width: 100%;
-        box-sizing: border-box;
+        width: 100%; /* Set the width of input and textarea elements to 100% of their container */
+        box-sizing: border-box;/* This will include the padding and border in the contact form element's width and height */   
     }
 
     
     /* Schedule Section */
 
 	#schedule h2 {
-	display: none;
+	display: none; /* Removes the "schedule" header */
     }
 
 
@@ -235,127 +234,129 @@
 /* Shop Style for Mobile Devices */
 	
 	#shop h2 {
-		display: none;
+		display: none; /* Removes the "shop" header */
 	}
 
 	.shopItems {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column; /* This will stack the links vertically */
+        align-items: center;/* centers the contents horizontally */
     }
 
     .shopItems .item {
-        width: 100%;
-        margin-bottom: 80px;
+        width: 100%; /* Sets the width to 100% */
+        margin-bottom: 80px; /* Adds 80 pixels of space between each item */
     }
 
     .shopItems .item h3 {
-        font-size: 1.5em;
-        margin-bottom: 10px;
+        font-size: 1.5em; /* Sets the item name font size to 1.5em */
+        margin-bottom: 10px; /* Adds 10 pixels of space between the item name and the image */
     }
 
     .shopItems .item img {
-        width: 100%;
-        border-radius: 10px;
-        height: auto;
-        margin-bottom: 10px;
+        width: 100%; /* Makes the image width 100% */
+        border-radius: 10px; /* Makes the image corners slightly rounded */
+        height: auto; /* Automatically adjusts the height of the images */
+        margin-bottom: 10px; /* Adds 10 pixels of space below the images */
     }
 
     .shopItems .item p {
-        font-size: 1.2em;
-        margin-bottom: 10px;
+        font-size: 1.2em; /* Sets the item description font size to 1.2em */
+        margin-bottom: 10px; /* Adds 10 pixels of space below the item description */
     }
 
     .shopItems .item a {
-        font-size: 1.2em;
+        font-size: 1.2em; /* Sets the font size of the amazon links to 1.2em */
     }
     
 }
 
 
-/*Tablets*/
+/*Beginning of Layout for Tablets*/
 @media only screen and (min-width: 481px) and (max-width: 1024px) {
 	
 	html, body {
-    background: none; 
-    width: 100%; 
-    max-width: 100%; 
-    overflow-x: hidden;
-    height: auto;
+    background: none;  /* Removes the set  background color for the webpage */
+    width: 100%; /* Sets the width to 100% of the viewport */
+    max-width: 100%; /* Sets the max width to 100% to prevent horizontal overflow*/
+    overflow-x: hidden; /* This will hide the horizontal overflow content */
     }
     
 
     header {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    height: auto; 
-    background-size: cover;
-    background-position: center; 
-    align-items: center;
+    display: flex; /* Tells the browser to use a flexbox layout */
+    flex-direction: column;/* Arranges the header as a column layout */
+    height: auto; /* Automatically sets the height to auto so it adjust correctly when needed */
+    background-size: cover;/* Makes the header cover the background */
+    align-items: center;/* Centers all the items within the header*/
     }
 
     header img {
-    width: 80%; 
-    max-height: 150px; 
-    object-fit: contain; 
-    padding-top: 20px;  
+    max-height: 150px; /* Ensure the height of the header image doesnt go past to 150 pixels */
+    object-fit: contain; /* Makes the header image contained in the set area */
+    padding-top: 20px; /* Adds 20 pixels of space at the top of the header image*/ 
     }
    
 
-	header h1 {
-	display: none;
-	}
-	
-	article > h2 {
-	display: none;
-	}
-	
 	 nav.horizontal {
-	box-shadow: none;
+	box-shadow: none;/* Removes the shadow on the navigation bar */
 	}
 
     nav.horizontal ul {
-    flex-direction: column;
-    padding: 0;     
+    flex-direction: column; /* Sets the layout of the navigation bar as a vertical column */
     }
 
     nav.horizontal li {
-    font-size: 26px; 
-    padding: 8px; 
-    line-height: 1.0;
-    border-bottom: 1px solid purple;
+    font-size: 26px; /* Sets the font size of the text inside of the navigation bar to 26 pixels */
+    padding: 8px; /* Adds space inside of the navigation bar */
+    line-height: 1.0; /* sets the space between line of text */
+    border-bottom: 1px solid purple;  /* adds a purple line below each navigation section */
     }
 
     nav.horizontal li a {
-    padding: 8px;
+    padding: 8px;/* Adds space inside each section of the navigation bar */
     }
+    
+     footer {
+    font-size: 1.2em; /* Sets the font size of the footer to 1.2em */
+    }
+    
+    /* Tablet layout for Index section */
+    
+      #videoSection iframe {
+   	 width: 80%; /* Sets the width of the video in the mobile layout */
+   	 border: 1px solid black; /* Adds a 1 pixel solid black border to the video */
+     border-radius: 20px; /* Makes the borders slightly rounded */
+     margin-bottom: 20px; /*Adds 20 pixels of space under the video */
+	 }
     
     
     
     
     /* Tablet Layout for Services Section */
 	
+	#services h1 {
+	display: none; /* Removes the h1 heading */
+	}
 	
 	 #services {
-     display: flex;
-     flex-direction: column; 
-     align-items: center; 
-     justify-content: flex-start; 
-     width: 100%; 
-     margin: 0 auto; 
-     padding: 20px 0 50px 0; 
-     box-sizing: border-box;
+     display: flex; /* Sets the layout as a flexbox */
+     flex-direction: column;  /* Sets the layout of the section to columns */
+     width: 100%; /* Sets the width of services at 100% */
+     margin: 0 auto; /* Set the space on the top/bottom to 0 and automatically sets the left/right */
+     padding: 20px 0 50px 0;  /* Adds space on the top and bottom */
+     box-sizing: border-box; /* This will include the padding and border in the #services width and height */ 
 	}
 
 	.service {
- 	top: 30px;
-    width: 90%; 
-    margin: 50px 0; 
-    padding: 20px;
-    border: 2px solid black;
-    background-color: rgb(255, 105, 180); 
-    text-align: center;
-    box-sizing: border-box; 
+ 	top: 30px;/* This sets the position of the top of this class to 30 pixels since the 
+    class is technically relative in the desktop view.. this will position it vertically correct*/
+    width: 90%; /* Sets the width of the boxes to 90%, leaving some space on the sides */
+    margin: 50px 0; /* Adds space on the top and bottom */
+    padding: 20px; /* Adds 20 pixels of space inside */
+    border: 2px solid black; /* Adds a 2 pixel solid black border */
+    background-color: rgba(128, 0, 128, 0.5); /* Sets the background color to the set rgba values */
+    text-align: center; /* Aligns the text to the center */
+    box-sizing: border-box;  /* This will include the padding and border in the .services width and height */ 
 	}
 	
 	
@@ -370,7 +371,7 @@
 
 
 	.testimonials h2 {
-    display: none;
+    display: none; /* Removes the h2 heading "Testimonials" */
     }
 	
 	
@@ -378,86 +379,79 @@
 	/*Tablet Layout Contact Us Section */
 	
 	#contactUs h2 {
-	display: none;
+	display: none; /* Removes the "Contact Us" heading */
 	}
 	
 	.contactContainer {
-        display: flex; /* Use flexbox layout */
-        flex-direction: row; /* Arrange items in a row */
-        justify-content: space-between; /* Space items evenly */
-        align-items: flex-start; /* Align items to the start */
-        width: 100%; /* Full width */
-        padding: 0 20px; /* Padding on left and right */
-        box-sizing: border-box; /* Include padding in width */
+        display: flex; /* Sets the layout as a flexbox */
+        flex-direction: row;/* Sets the layout of the section as rows */
+        align-items: flex-start; /* This will align the items to the start of the page */
+        width: 100%; /* Sets the width of the container to 100% */
+        padding: 0 20px; /* Adds 20 pixels of space inside the left/right */
+        box-sizing: border-box; /* This will include the padding and border in the .contactContainer's width and height */ 
     }
 
     .contactInfo, .contactMap {
-        width: 48%; /* Each section takes up 48% of the width */
-        margin: 10px 0; /* Margin on top and bottom */
-        padding: 20px; /* Padding inside the sections */
-        box-sizing: border-box; /* Include padding in width */
-        border-radius: 10px; /* Rounded corners */
+        width: 48%; /* Sets the width of .contactInfo and .contactMap to 48% */
+        margin: 10px 0; /* Adds 10 pixels of space on the top/bottom */
+        padding: 20px; /* Adds 20 pixels of space inside */
+        box-sizing: border-box; /* This will include the padding and border in the element's width and height */ 
+        border-radius: 10px; /* Makes the conrners slightly rounded */
     }
     
     
 
     .contactMap iframe {
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        min-height: 455px; /* Minimum height */
-        border: 0; /* No border */
+        width: 100%; /* Sets the width of the map and its container to 100% */
+        height: 455px; /* Sets the height of the map/container to 455 pixels */
     }
 
     .contactForm {
-        display: flex; /* Use flexbox layout */
-        flex-direction: column; /* Arrange items in a column */
-        align-items: center; /* Center items horizontally */
-        width: 100%; /* Full width */
-        margin: 10px 0; /* Margin on top and bottom */
-        padding: 20px; /* Padding inside the sections */
-        box-sizing: border-box; /* Include padding in width */
-        border-radius: 10px; /* Rounded corners */
+        display: flex; /* Sets the layout as a flexbox */
+        flex-direction: column; /* Sets the layout of the section as a column */
+        align-items: center; /* This will center the contents horizontally */
+        width: 100%; /* Sets the width of the form to 100% */
+        margin: 10px 0; /* Adds 10 pixels of space on the top/bottom */
+        padding: 20px; /* Adds 20 pixels of space inside the form*/
+        box-sizing: border-box;  /* This will include the padding and border in the element's width and height */ 
+        border-radius: 10px; /* Makes the corners slightly rounded */
     }
 
     .contactForm h3 {
-        text-align: center; /* Center the heading */
-        width: 100%; /* Full width */
-        margin-bottom: 20px; /* Margin below the heading */
+        text-align: center; /* Centers the contact form heading */
+        margin-bottom: 20px; /* Adds 20 pixels of space below the form */
     }
 
     .contactForm form {
-        display: flex; /* Use flexbox layout */
-        flex-direction: column; /* Arrange items in a column */
-        width: 100%; /* Full width */
+        display: flex; /* Sets the layout as a flexbox */
+        flex-direction: column; /* Arranges the form as columns */
+        width: 100%; /* Ensures the input boxes take 100% of its width */
     }
 
     .contactForm label {
-        width: 100%; /* Full width */
-        margin: 10px 0 5px; /* Margin on top, bottom, and sides */
-        text-align: left; /* Align text to the left */
+        margin: 10px 0 5px; /* adds space on the top and bottom */
+        text-align: left; /* Sets the alignment of the text to the left of the form */
     }
 
     .contactForm input[type="text"],
     .contactForm input[type="email"],
     .contactForm input[type="phone"],
     .contactForm textarea {
-        width: 100%; /* Full width */
-        margin: 5px 0 20px; /* Margin on top, bottom, and sides */
-        box-sizing: border-box; /* Include padding in width */
+        margin: 5px 0 20px; /*adds space to the top and bottom */
+        box-sizing: border-box;  /* This will include the padding and border in the element's width and height */ 
     }
 
     .contactForm input[type="reset"],
     .contactForm input[type="submit"] {
-        width: 100%; /* Each button takes up 48% of the width */
-        margin: 10px 1%; /* Margin on top, bottom, and sides */
-        box-sizing: border-box; /* Include padding in width */
+        margin: 10px 0; /* adds space on the top/bottom */
+        box-sizing: border-box; /* This will include the padding and border in the element's width and height */ 
     }
     
    
     /* Tablet Layout for Schedule Section */
     
     #schedule h2 {
-    display: none;
+    display: none; /* Removes the heading for the schedule section */
     }
     
     /* Tablet layout for Shop Section */
@@ -525,6 +519,8 @@
 
 	
    
+    
+    
     
     
    
