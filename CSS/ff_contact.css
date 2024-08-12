@@ -80,6 +80,15 @@
 	font-size: 22px; /*Sets the font size of the paragraphs inside the contactInfo to 22 pixels */
 	}
 
+.contactInfo a {
+    color: rgb(46, 1, 126); /* Sets the link color to the specified RGB values */
+    text-decoration: none; /* Removes the underline from the link */
+ }
+
+	.contactInfo a:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover */
+}
+
 	.contactInfo h3, .contactMap h3 {
 	font-size: 30px;
     text-align: center; /*Centers the headings for the contactInfo and contactMap */
