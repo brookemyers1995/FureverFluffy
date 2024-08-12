@@ -90,7 +90,7 @@
 
 	.subtitle {
     top: -55px; /* Moves the .subtitle (appointment needed/ no appointment needed) heading  up */
-    right: 50%; /* Moves the the subtitles 50% from the right, */
+    right: 51%; /* Moves the the subtitles 50% from the right, */
     transform: translateX(55%); /* Moves the subtitles horizontally to the right */
     position: absolute; /* This will positions the subtitle absolutely within the .subtitle container  */
     -webkit-transform: translateX(55%); /* WEBKIT EXTENSION FOR SAFARI */
