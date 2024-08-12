@@ -66,14 +66,6 @@
     border-radius: 15px; /* Makes the corners of each images slightly rounded */
 	}
 
-.shopItems .item2 img {
-    width: 100%; /* Sets the width to 100% which will fill up the container */
-    height: 200px; /* Set a specific height to control vertical size */
-    object-fit: cover; /* Ensures the image covers the entire area without distortion */
-    border: 2px solid black; /* Adds a 2 pixel solid black border around each image for better appearance */
-    margin-bottom: 10px; /* Adds 10 pixels of space below each image */
-    border-radius: 15px; /* Makes the corners of each image slightly rounded */
-}
 
 	.shopItems .item p {
     font-size: 16px; /* Sets the font size of the image descriptions to 16 pixels */
