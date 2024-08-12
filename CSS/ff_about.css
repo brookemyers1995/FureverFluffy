@@ -21,7 +21,7 @@
     flex-grow: 1;  /* Makes the article grow in size and fill up any extra space */
     display: flex; /* This tells the browser to use a flexbox type layout for the article section */
     flex-direction: column; /* Displays the flexbox as a column */
-    margin-bottom: 80px;    /* Adds space below the article */
+    margin-bottom: 10px;    /* Adds space below the article */
 	}
 
 	.aboutSection h2 {
