@@ -1,6 +1,6 @@
-@charset "utf-8";
-
-/*
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
 	Final Capstone Project
 	CTS 1851
 	Internet Web Foundations (HTML_51FZ_SU24_ON)
@@ -8,60 +8,95 @@
 	
 	
 	Furever Fluffy Schedule
-	Filename: ff_schedule.css 
 	Author:	Brooke Myers
 	Date:
 
-*/
+ -->
 
-	
+<head>
+    <meta charset="UTF-8"><!-- Sets the character encoding for the document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Makes sure there is proper rendering and touch zooming on mobile devices -->
+    <title>Furever Fluffy Dog Grooming - Schedule</title><!-- The title of the website -->
+    <link rel="stylesheet" href="CSS/ff_styles.css"><!-- Base styling for all pages -->
+    <link rel="stylesheet" href="CSS/ff_schedule.css"><!-- Styling Specifically for the Schedule page -->
+    <link href="CSS/ff_layout.css" rel="stylesheet" media="screen"/><!-- Layout for Mobile Devices and Tablet/Desktop Devices -->
+    <link href="CSS/ff_print.css" rel="stylesheet" media="print"/> <!-- Layout for Printing -->
+</head>
+<body>
+    <header><!-- opening of the header section -->
+    	<a href="index.html"><!-- link for logo, clicking will redirect you to the index -->
+        <img src="Images/ff_logo.png" alt="Furever Fluffy" style="width: 450px; margin-top: -20px;"><!-- Logo source -->
+        </a><!-- closing the link section --> 
+    </header><!-- closing of the header -->
 
-	#schedule { 
-    padding: 20px; /* Adds 20 pixels of space inside the #schedule section */
-    background-color: white; /* Makes the #schedule section background color white */
-    margin: 0 auto; /* Centers the element horizontally by setting top/bottom to 0 and left/right to auto*/
-    max-width: 1000px; /* Sets the maximum width of the schedule section*/
-	}
+    <nav class="horizontal"><!-- Navigation Bar to link to other sections in the webpage -->
+        <ul><!-- beginning of unordered list -->
+            <li><a href="index.html">Home</a></li><!-- link to the index -->
+            <li><a href="ff_services.html">Services</a></li><!-- link to the Services Section -->
+            <li><a href="ff_about.html">About Us</a></li><!-- Link to the About Us Section -->
+            <li><a href="ff_contact.html">Contact Us</a></li><!-- Link to the contact us section -->
+            <li><a href="ff_schedule.html">Schedule</a></li> <!-- Link to the Schedule Section -->
+            <li><a href="ff_shop.html">Shop</a></li><!-- Link to the Shop Section -->
+        </ul><!-- ending of unordered list -->
+    </nav><!-- closing navigation section -->
 
-	#schedule h2 {
-	margin-top: 0px; /* Removes the space above the "schedule" h2 heading */
-    text-align: center; /* Sets the "schedule" h2 heading to the center of the page */
-    font-family: 'Comic Sans MS'; /* Sets the font style of the "schedule" h2 heading to comic sans ms */
-    font-size: 34px; /* Sets the font size of the "schedule" h2 heading to 34 pixels */
-    color: rgb(46, 1, 126); /* Sets the font color of the h2 heading to the set rgb values (purple)*/
-	}
+    <section id="schedule"> <!-- Beginning of the schedule section -->
+        <h2>Schedule</h2><!--  Heading for the Schedule section -->
+        <div class="infoBox"> <!--  Establishes the container that the schedule information will be in -->
+            <p>Please note that the groomer has a very busy schedule and time slots fill up fast! The salon is typically booked out a few weeks in advance. 
+            Due to the limited time frame for the groomer on staff, we are only accepting 2 dogs a day. 
+            Each appointment can take at least 1 1/2 hours. This ensures that your pet has a peaceful experience and receives the best quality. 
+            To book an appointment,simply call/text the phone number provided on the site or fill out a contact form located on the contact us section. 
+            Thank you for your understanding and we look forward to meeting you and your furry friend(s)!</p> <!-- The paragraph that will be displayed below the h2 heading and above the table -->
+        </div><!-- End of the info-box -->
+        <div class="scheduleTable"> <!--  Establishes the container that the Table information will be in -->
+            <table> <!--  Beginning of the table -->
+                <tr> <!-- Beginning of the header that contains the groomer names and "groomer's schedule -->
+                    <th>Groomer's Schedule</th> <!-- First part of the header -->
+                    <th>Brooke</th><!-- Second part of the header -->
+                </tr><!-- End of the header section -->
+                <tr><!-- Beginning of the table row for "Monday" -->
+                    <td>Monday</td><!-- Specifies which day of the week this row is -->
+                    <td>3PM - 8PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+         
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Tuesday" -->
+                    <td>Tuesday</td><!-- Specifies which day of the week this row is -->
+                    <td>3PM - 8PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                
+                <tr><!-- Beginning of the table row for "Wednesday" -->
+                    <td>Wednesday</td><!-- Specifies which day of the week this row is -->
+                    <td>3PM - 8PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                
+                <tr><!-- Beginning of the table row for "Thursday" -->
+                    <td>Thursday</td><!-- Specifies which day of the week this row is -->
+                    <td>3PM - 8PM</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                
+                <tr><!-- Beginning of the table row for "Friday" -->
+                    <td>Friday</td><!-- Specifies which day of the week this row is -->
+                    <td>OFF</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Saturday" -->
+                
+                    <td>Saturday</td><!-- Specifies which day of the week this row is -->
+                    <td>OFF</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                <tr><!-- Beginning of the table row for "Sunday" -->
+                
+                    <td>Sunday</td><!-- Specifies which day of the week this row is -->
+                    <td>OFF</td><!-- Identifies what groomer "Brooke" schedule is for this day of the week -->
+                </tr><!-- End of the row section for this day of the week -->
+                
+            </table><!--  End of the entire table -->
+        </div>
+    </section> <!-- End of the schedule section -->
 
-	.infoBox {/* This is the information box that appears above the schedule table*/
-    padding: 10px; /* Adds 10 pixels of space inside the "infoBox" container */
-    border: 1px solid black; /* Adds a 1 pixel sized solid black border around the "infoBox" container */
-    margin-bottom: 20px; /* Adds 20 pixels of space below the "infoBox" */
-    font-family: 'Comic Sans MS'; /* Sets the font style of text inside the "infoBox" to comic sans ms */
-    background-color: white; /* Set the background color of the "infoBox" container to white */
-	}
-
-	.scheduleTable table {
-    width: 100%; /* Sets the width of the table to 100% */
-    border-collapse: collapse; /* This collapses the borders of the cells inside of the table into one border 
-    (without it, there would be gaps in between each cell)*/
-    font-family: 'Comic Sans MS'; /* Sets the font style of text inside the table to comic sans ms */
-	}
-
-	.scheduleTable th, .scheduleTable td {
-    border: 1px solid black;  /* Adds a 1 pixel sized solid black border around the table headers and cells */
-    padding: 10px; /* Adds 10 pixels of space inside the table head and cells */
-    text-align: center; /* Center the text of the table header and cells */
-	}
-
-	.scheduleTable th {
-    background-color: rgb(255, 105, 180); /* Sets the table header background to the rgb values assigned (hot pink) */
-    color: black; /* Sets the font color of the table header to black */
-    font-size: 16px; /* Sets the font size of the table header to 16 pixels */
-    font-family: 'Comic Sans MS'; /* Sets the font style of the table header to comic sans ms */
-	}
-
-	.scheduleTable td {
-    background-color: white; /* Sets the table cells to the background color white */
-    color: black; /*Sets the font color of the table cells to black */
-    font-size: 16px; /* Sets the font size of the table cells to 16 pixels */
-    font-family: 'Comic Sans MS'; /* Sets the font style of the table cells to comic sans ms */
-	}
+    <footer><!-- Beginning of the footer section -->
+        <p>© 2024 Furever Fluffy Dog Grooming  
+        ♦  910 Saxon Blvd, Deltona, FL 32725  ♦  (689)279-8218  </p> <!-- The information displayed in the footer -->
+    </footer> <!-- End of the footer section -->
+</body> 
+</html>
