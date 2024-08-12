@@ -66,6 +66,9 @@
     
 	#WalkIn h2 {
     transform: translateX(55%); /* This moves the #walkIn h2 heading horizontally to the right */
+    -webkit-transform: translateX(55%); /* WEBKIT EXTENSION FOR SAFARI */
+    -ms-transform: translateX(55%); /* ms extension for Internet Explorer */
+    -moz-transform: translateX(55%); /* mox extension for Mozilla Firefox */
     font-size: 24px; /* Sets the font size of the h2 sub heading to 24 pixels */
     font-family: 'Comic Sans MS'; /* Sets the font style of the h2 sub heading to comic sans ms */
     color: rgb(46, 1, 126); /* Sets the font color of the h2 sub heading to the set rgb values */
@@ -76,6 +79,9 @@
     right: 50%; /* This moves the the #HaircutBath h2 sub heading 50% from the right, 
     positioning it centered above the subtitle and content boxes */
     transform: translateX(55%); /* This moves the #HaircutBath h2 heading horizontally to the right */
+    -webkit-transform: translateX(55%); /* WEBKIT EXTENSION FOR SAFARI */
+    -ms-transform: translateX(55%); /* ms extension for Internet Explorer */
+    -moz-transform: translateX(55%); /* mox extension for Mozilla Firefox */
     font-size: 24px; /* Sets the h2 subheading "haircutBath" to 24 pixels */
     font-family: 'Comic Sans MS'; /* Sets the font style of the #HaircutBath h2 sub heading to comic sans ms */
     color: rgb(46, 1, 126); /* Sets the font color of the #HaircutBath h2 sub heading to the set rgb values */
@@ -84,11 +90,15 @@
 
 	.subtitle {
     top: -55px; /* Moves the .subtitle (appointment needed/ no appointment needed) heading  up */
-    right: 50%; /* Moves the the subtitles 50% from the right, */
+    right: 55%; /* Moves the the subtitles 50% from the right, */
     transform: translateX(55%); /* Moves the subtitles horizontally to the right */
     position: absolute; /* This will positions the subtitle absolutely within the .subtitle container  */
+    -webkit-transform: translateX(55%); /* WEBKIT EXTENSION FOR SAFARI */
+    -ms-transform: translateX(55%); /* ms extension for Internet Explorer */
+    -moz-transform: translateX(55%); /* mox extension for Mozilla Firefox */
     font-size: 16px; /* Sets the font size of the subtitles to 16 pixels */
     font-family: 'Comic Sans MS'; /* Sets the font style of the subtitles to comic sans ms */
     color: black; /* Sets the font color of the subtitles to black */ 
     white-space: nowrap; /* Prevents the subtitles text from wrapping if they're too long */
 	}
+
