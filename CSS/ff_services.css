@@ -84,7 +84,7 @@
 
 	.subtitle {
     top: -55px; /* Moves the .subtitle (appointment needed/ no appointment needed) heading  up */
-    right: 55%; /* Moves the the subtitles 50% from the right, */
+    right: 60%; /* Moves the the subtitles 50% from the right, */
     transform: translateX(55%); /* Moves the subtitles horizontally to the right */
     position: absolute; /* This will positions the subtitle absolutely within the .subtitle container  */
     font-size: 16px; /* Sets the font size of the subtitles to 16 pixels */
