@@ -52,11 +52,12 @@
     justify-content: space-around; /* Inserts space evenly around the added images */
     padding: 10px; /* Adds 10 pixels of space inside the "groomerPhotos" section */
     margin-top: 50px; /* Adds space above the pictures */
+		height: 50%;
 	}
 
 	.groomerPhoto {
     width: 45%; /* Sets the width of each picture in the "groomerPhoto" container */
-    height: 50%; /* Makes the height adjust automatically based off the original proportions of the image*/
+    height: auto; /* Makes the height adjust automatically based off the original proportions of the image*/
     border-radius: 30px; /* Gives the corners of the images a slightly rounded appearance */
    	}
 
