@@ -52,7 +52,6 @@
     justify-content: space-around; /* Inserts space evenly around the added images */
     padding: 10px; /* Adds 10 pixels of space inside the "groomerPhotos" section */
     margin-top: 50px; /* Adds space above the pictures */
-		height: 50%;
 	}
 
 	.groomerPhoto {
