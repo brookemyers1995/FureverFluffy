@@ -56,7 +56,7 @@
 
 	.groomerPhoto {
     width: 45%; /* Sets the width of each picture in the "groomerPhoto" container */
-    height: auto; /* Makes the height adjust automatically based off the original proportions of the image*/
+    height: 75px; /* Makes the height adjust automatically based off the original proportions of the image*/
     border-radius: 30px; /* Gives the corners of the images a slightly rounded appearance */
    	}
 
