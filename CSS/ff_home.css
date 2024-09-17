@@ -90,6 +90,22 @@
     margin-top: 18px; /* Adds space above the "companyOverview" */
     padding-bottom: 10px; /* Adds space at the bottom of the "companyOverview" */
 	}
+
+	#instagram-button
+	{
+		 font-family: 'Comic Sans MS'; /* Change to your desired font */
+    font-size: 1.2em; /* Adjust font size */
+    color: white; /* Set text color to white */
+    background-color: rgb(46, 1, 126); /* Set background color */
+    border: none; /* Remove default border */
+    padding: 10px 10px; /* Add padding */
+    border-radius: 25px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it behave like a button */
+    color: white !important;
+	}
 	
 	#videoSection {
     clear: both; /* Stops the ID videoSection from floating on the right and left sides */
