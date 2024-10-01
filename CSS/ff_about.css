@@ -54,9 +54,17 @@
     margin-top: 50px; /* Adds space above the pictures */
 	}
 
+	/*.groomerPhoto {
+    width: 45%; 
+    height: auto; 
+    border-radius: 30px; 
+   	}*/
+
 	.groomerPhoto {
-    width: 45%; /* Sets the width of each picture in the "groomerPhoto" container */
-    height: auto; /* Makes the height adjust automatically based off the original proportions of the image*/
-    border-radius: 30px; /* Gives the corners of the images a slightly rounded appearance */
-   	}
+    	width: 45%; /* Sets the width of each picture/video in the "groomerPhoto" container */
+    	height: auto; /* Makes the height adjust automatically based on the original proportions */
+    	border-radius: 30px; /* Gives the corners of the images/videos a slightly rounded appearance */
+    	display: block; /* Ensures the video behaves like a block element */
+    	margin: 0 auto; /* Centers the video horizontally */
+	}
 
