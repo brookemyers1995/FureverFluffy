@@ -112,7 +112,7 @@
 	
 
     .service h2, #WalkIn h2, #HaircutBath h2 {
-    font-size: 20px; /* Sets the fontsize of the h2 heading's to 20 pixels */
+    font-size: 18px; /* Sets the fontsize of the h2 heading's to 20 pixels */
     position: relative; /* Sets the position to relative of its normal position */
     top: 0;  /* This sets the position of the top of this class to zero since the 
     class it technically relative in the desktop view.. this will position it vertically correct*/
