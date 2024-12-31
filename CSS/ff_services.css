@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+
 /*
 	Final Capstone Project
 	CTS 1851
@@ -24,7 +25,7 @@
     font-size: 34px; /* Sets the font size of the h1 heading to 40 pixels */
     font-family: 'Comic Sans MS';  /* Sets the font style of the h1 heading to comic sans ms */
     color: rgb(46, 1, 126); /* Sets the font color of the h1 heading to the rgb values assigned */
-    margin-top: -970px; /* This sets the h1 heading perfectly centered at the top of the page 
+    margin-top: -1050px; /* This sets the h1 heading perfectly centered at the top of the page 
     (for some reason this is the only way I could figure out how to accomplish this 
     other than applying a large amount of negative pixels to the margin-top )*/
    	}
@@ -66,6 +67,7 @@
     
 	#WalkIn h2 {
     transform: translateX(55%); /* This moves the #walkIn h2 heading horizontally to the right */
+    right: 50%;
     -webkit-transform: translateX(55%); /* WEBKIT EXTENSION FOR SAFARI */
     -ms-transform: translateX(55%); /* ms extension for Internet Explorer */
     -moz-transform: translateX(55%); /* mox extension for Mozilla Firefox */
@@ -90,7 +92,7 @@
 
 	.subtitle {
     top: -55px; /* Moves the .subtitle (appointment needed/ no appointment needed) heading  up */
-    right: 51%; /* Moves the the subtitles 50% from the right, */
+    right: 50%; /* Moves the the subtitles 50% from the right, */
     transform: translateX(55%); /* Moves the subtitles horizontally to the right */
     position: absolute; /* This will positions the subtitle absolutely within the .subtitle container  */
     -webkit-transform: translateX(55%); /* WEBKIT EXTENSION FOR SAFARI */
@@ -101,4 +103,7 @@
     color: black; /* Sets the font color of the subtitles to black */ 
     white-space: nowrap; /* Prevents the subtitles text from wrapping if they're too long */
 	}
+
+
+
 
